@@ -15,10 +15,6 @@ $(document).ready(function(){
                     $.each(json.buy, function(index, item) {
                         $('#buyHot').append("<div style=\"margin:5px 0;\"><a href=\"article.html?cate=buy&serial="+item.serial+"\" style=\"text-decoration:none;color:black;font-size:20px;\">"+item.title+"</a></div>");
                     });
-                if (json.passage.intern != 0)
-                    $.each(json.intern, function(index, item) {
-                        $('#internHot').append("<div style=\"margin:5px 0;\"><a href=\"article.html?cate=intern&serial="+item.serial+"\" style=\"text-decoration:none;color:black;font-size:20px;\">"+item.title+"</a></div>");
-                    });
                 if (json.passage.ptjb != 0)
                     $.each(json.ptjb, function(index, item) {
                         $('#ptjbHot').append("<div style=\"margin:5px 0;\"><a href=\"article.html?cate=ptjb&serial="+item.serial+"\" style=\"text-decoration:none;color:black;font-size:20px;\">"+item.title+"</a></div>");

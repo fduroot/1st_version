@@ -32,14 +32,11 @@ $(document).ready(function () {
                 }
             }
         });
-    }
-    ;
+    };
     if ($.cookie('userid') === null) {
         alert("You are not allowed to edit!");
         window.location.href = "index.html";
-    }
-    ;
-    //var content;
+    };
     $.ajax({
         type: "POST",
         url: "./php/getArticle.php",
@@ -50,16 +47,7 @@ $(document).ready(function () {
         async: false,
         success: function (json) {
             $('#topic-name').val(json.title);
-            /*KindEditor.ready(function(K) {
-             editor = K.create('#context-edit');
-             editor.text('xxx');
-
-             //editor.text('text');
-             });*/
             content=json.content;
-
-//            $('#context-edit').html(json.content);
-//            KindEditor.create('#context-edit');
             $('#categorylist').val(json.cate);
             $('#upfile').val(json.img);
         }
@@ -67,8 +55,6 @@ $(document).ready(function () {
     KindEditor.ready(function(K) {
         editor = K.create('#context-edit');
         editor.html(content);
-
-        //editor.text('text');
     });
     $('#categorylist').val(getQueryString("cate"));
 });

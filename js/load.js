@@ -28,8 +28,8 @@ $(document).ready(function(){
         $('.navbar-text').append("<a href=\"#loginModal\" class=\"btn\" data-toggle=\"modal\" data-target=\"#loginModal\" style=\"margin-left:10px;margin-top:0\">Login</a>&nbsp<a href=\"#registerModal\" class=\"btn\" data-toggle=\"modal\" data-target=\"#registerModal\" style=\"margin-left:10px;margin-top:0\">Register</a>");
     }
     $('li.dropdown').mouseover(function() {
-        $(this).addClass('open');}).mouseout(function() {
-        $(this).removeClass('open');
+         $(this).addClass('open');}).mouseout(function() {
+            $(this).removeClass('open');
     });
 });
 

@@ -20,19 +20,16 @@ $(document).ready(function(){
     }
     if(getQueryString("cate")==="inform") {
         $('#inform').attr("class","active nav-header");
-        $('h1 span').html("Inform");
-    }
-    if(getQueryString("cate")==="intern") {
-        $('h1 span').html("Internship");
+        $('h1 span').html("Information");
     }
     if(getQueryString("cate")==="ptjb")
-        $('h1 span').html("Part Time Job");
+        $('h1 span').html("Job Postings");
     if(getQueryString("cate")==="qa") {
         $('#qa').attr("class","active nav-header");
         $('h1 span').html("Q&A");
     }
     if(getQueryString("cate")==="stuff")
-        $('h1 span').html("About FDU Stuffs");
+        $('h1 span').html("More About Fudan");
     if(getQueryString("cate")==="other")
         $('h1 span').html("Other");
     if(getQueryString("cate")==="search") {
@@ -92,7 +89,7 @@ $(document).ready(function(){
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic("+item.serial+")\">Delete</a>");
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"edit("+item.serial+")\">Edit</a>");
                 }
-                else if (admin()) {
+                else if (admin()==="true") {
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic("+item.serial+")\">Delete</a>");
                 }
             });
