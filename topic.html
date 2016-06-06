@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Topic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/glyphicons.css" rel="stylesheet">
+    <link href="css/load.css" rel="stylesheet">
+    <style type="text/css">
+        .glyphicon-sort {
+        margin-left:5px;
+        cursor:pointer;
+        color:rgb(100,200,250);
+        }
+        .admin a:first-child{
+            font-style: italic;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        .glyphicon-flag {
+            color: red;
+            margin-left: 10px;
+        }
+
+        @media (max-width: 980px) {
+        /* Enable use of floated navbar text */
+        .navbar-text.pull-right {
+        float: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        }
+        }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/bootstrapValidator.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="ico/favicon.png">-->
+</head>
+
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="index.html">FDUROOT</a>
+
+            <div class="nav-collapse collapse">
+                <p class="navbar-text pull-right">
+
+                </p>
+
+                <ul class="nav">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home" style="margin-right:3px"></span>Home</a></li>
+                    <li><a href="contact.html"><span class="glyphicon glyphicon-phone" style="margin-right:3px"></span>Contact Us</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+            <form class="form-search pull-right" id="searchBar" style="margin-bottom:0;margin-top:5px">
+                <input type="text" class="input-medium search-query" name="search">
+                <button type="button" class="btn" onclick="searchTopic()" style="margin-top:1px;">Search</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div id="loginModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="loginModalLabel">Login</h3>
+    </div>
+    <form id="loginForm" method="post" class="form-horizontal" action="php/login.php">
+        <div class="modal-body">
+            <div class="form-group control-group">
+                <label class="control-label" for="loginInputAccount">Account</label>
+                <div class="controls">
+                    <input type="text" name="account" class="form-control" id="loginInputAccount" placeholder="Account">
+                    <span id="logAccError" class="help-block"></span>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label" for="loginInputPassword">Password</label>
+                <div class="controls">
+                    <input type="password" name="password" class="form-control" id="loginInputPassword" placeholder="Password">
+                    <span id="logPassError" class="help-block"></span>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <input name="url" style="display:none" class="url">
+            <input name="write" style="display:none" class="write">
+            <button class="btn btn-primary" type="submit">Submit</button>
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+        </div>
+    </form>
+</div>
+
+<div id="registerModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="registerModalLabel">Register</h3>
+    </div>
+    <form id="registerForm" method="post" class="form-horizontal" action="php/reg.php">
+        <div class="modal-body">
+            <div class="form-group control-group">
+                <label class="control-label" for="registerInputAccount">Account</label>
+                <div class="controls">
+                    <input type="text" name="account" class="form-control" id="registerInputAccount" placeholder="At least 5 characters">
+                    <span class="help-block" id="regAccError"></span>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label" for="registerInputName">Nickname</label>
+                <div class="controls">
+                    <input type="text" name="nickname" class="form-control" id="registerInputName" placeholder="Nickname">
+                    <span class="help-block" id="regNickError"></span>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label" for="registerInputPassword">Password</label>
+                <div class="controls">
+                    <input type="password" name="password" class="form-control" id="registerInputPassword" placeholder="At least 6 characters">
+                    <span class="help-block" id="regPassError"></span>
+                </div>
+            </div>
+            <div class="form-group control-group">
+                <label class="control-label" for="registerInputPasswordAgain">Confirm Your Password</label>
+                <div class="controls">
+                    <input type="password" name="passwordAgain" class="form-control" id="registerInputPasswordAgain" placeholder="Please confirm your password">
+                    <span class="help-block" id="regPassAgainError"></span>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <input name="url" style="display:none" class="url">
+            <button class="btn btn-primary" type="submit">Submit</button>
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+        </div>
+    </form>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span3">
+            <div class="well sidebar-nav">
+                <ul class="nav nav-list">
+                    <li class="nav-header"><h5 style="height:10px;margin-top:5px">Sell&Buy</h5></li>
+                    <li id="sell"><a href="topic.html?cate=sell&page=1">&nbsp;&nbsp;Sell</a></li>
+                    <li id="buy"><a href="topic.html?cate=buy&page=1">&nbsp;&nbsp;Buy</a></li>
+                    <li class="nav-header" id="inform"><h5 style="height:10px;margin-top:5px">Inform</h5></li>
+                    <li id="intern"><a href="topic.html?cate=intern&page=1">&nbsp;&nbsp;Internship</a></li>
+                    <li id="ptjb"><a href="topic.html?cate=ptjb&page=1">&nbsp;&nbsp;Part Time Job</a></li>
+                    <li class="nav-header" id="qa"><h5 style="height:10px;margin-top:3px">Q&A</h5></li>
+                    <li id="stuff"><a href="topic.html?cate=stuff&page=1">&nbsp;&nbsp;About FDU Stuffs</a></li>
+                    <li id="other"><a href="topic.html?cate=other&page=1">&nbsp;&nbsp;Other</a></li>
+                </ul>
+            </div><!--/.well -->
+
+        </div><!--/span-->
+        <div class="span9">
+            <table class="table table-hover table-striped">
+                <caption><h1><span style="font-family:cursive"></span><a href="" id="edit_btn" class="pull-right" onclick="newTopic()">New</a></h1></caption>
+                <thead>
+                <tr>
+                    <th class="span5"><span class="lead" style="color:black;font-weight:bold">Title</span></th>
+                    <th class="span2"><span class="lead" style="color:black;font-weight:bold">Time</span><span class="glyphicon glyphicon-sort" onclick="sort('created_time')"></span></th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <div class="pagination pagination-centered">
+                <ul contenteditable="true">
+                    <li id="firstLi"><a id="firstPage" href="#">First</a></li>
+                    <li id="prevLi"><a id="prevPage" href="#">Prev</a></li>
+                    <li id="nextLi"><a id="nextPage" href="#">Next</a></li>
+                    <li id="lastLi"><a id="lastPage" href="#">Last</a></li>
+                </ul>
+            </div>
+        </div><!--/span-->
+    </div><!--/row-->
+
+    <hr>
+
+    <footer>
+        <!--<p>&copy; Company 2013</p>-->
+    </footer>
+
+</div><!--/.fluid-container-->
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/topic.js"></script>
+<script src="js/load.js"></script>
+<script src="js/logReg.js"></script>
+<script src="js/bootstrapValidator.min.js"></script>
+
+</body>
+</html>
