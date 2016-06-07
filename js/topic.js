@@ -20,19 +20,16 @@ $(document).ready(function(){
     }
     if(getQueryString("cate")==="inform") {
         $('#inform').attr("class","active nav-header");
-        $('h1 span').html("Inform");
-    }
-    if(getQueryString("cate")==="intern") {
-        $('h1 span').html("Internship");
+        $('h1 span').html("Information");
     }
     if(getQueryString("cate")==="ptjb")
-        $('h1 span').html("Part Time Job");
+        $('h1 span').html("Job Postings");
     if(getQueryString("cate")==="qa") {
         $('#qa').attr("class","active nav-header");
         $('h1 span').html("Q&A");
     }
     if(getQueryString("cate")==="stuff")
-        $('h1 span').html("About FDU Stuffs");
+        $('h1 span').html("More About Fudan");
     if(getQueryString("cate")==="other")
         $('h1 span').html("Other");
     if(getQueryString("cate")==="search") {
@@ -78,7 +75,7 @@ $(document).ready(function(){
                     $('tbody').append("<tr class='admin'><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span class='glyphicon glyphicon-flag'></span></th><th class=\"span2\">"+item.time+"</th></tr>");
                 else
                     $('tbody').append("<tr class='admin'><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span class='glyphicon glyphicon-flag'></span></th><th class=\"span2\">"+item.time+"</th><th class=\"span2\">"+item.readAmount+"</th><th class=\"span2\">"+item.cate+"</th></tr>");
-                if(admin()) {
+                if(admin()==="true") {
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic("+item.serial+")\">Delete</a>");
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"edit("+item.serial+")\">Edit</a>");
                 }
@@ -91,9 +88,6 @@ $(document).ready(function(){
                 if($.cookie('userid')===item.author) {
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic("+item.serial+")\">Delete</a>");
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"edit("+item.serial+")\">Edit</a>");
-                }
-                else if (admin()==="true") {
-                    $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic("+item.serial+")\">Delete</a>");
                 }
             });
         }
@@ -146,6 +140,7 @@ function admin() {
     $.ajax({
         type: "POST",
         url: "./php/getAdmin.php",
+        dataType:"json",
         data: {
             id: $.cookie('userid'),
         },
