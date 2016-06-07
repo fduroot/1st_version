@@ -9,12 +9,14 @@ header("content-type: text/html;charset=utf-8");
 $servername = "localhost:3306";
 $username = "ghdaudrm_root";
 $password = "Tongshang1";
-$userid=$_POST["userid"];
+$userid=$_POST["id"];
+//echo "$userid";
 $conn = mysqli_connect($servername, $username, $password,'ghdaudrm_fduroot');
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 $sql="SELECT auth FROM fduroot_user WHERE user_id = '$userid'";
+//die("$sql");
 $retval = mysqli_query($conn,$sql);
 //echo "$retval";
 $arr = array();

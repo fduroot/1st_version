@@ -70,12 +70,15 @@ $(document).ready(function(){
                         $("<li><a href=\"#\" onclick=\"jump('"+i+"')\" style=\"color:rgb(255,255,255);background:rgb(130,200,255)\">"+i+"</a></li>").insertBefore('#nextLi');
                 }
             //for(var i=0; i<json.passage;i++)
+            var is_admin;
+            if (admin()) is_admin=true; else is_admin=false;
             $.each(json.notify, function(index, item) {
                 if(getQueryString("search")===null)
                     $('tbody').append("<tr class='admin'><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span class='glyphicon glyphicon-flag'></span></th><th class=\"span2\">"+item.time+"</th></tr>");
                 else
                     $('tbody').append("<tr class='admin'><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span class='glyphicon glyphicon-flag'></span></th><th class=\"span2\">"+item.time+"</th><th class=\"span2\">"+item.readAmount+"</th><th class=\"span2\">"+item.cate+"</th></tr>");
-                if(admin()) {
+                //alert(admin());
+                if (is_admin) {
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic("+item.serial+")\">Delete</a>");
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"edit("+item.serial+")\">Edit</a>");
                 }
@@ -89,7 +92,7 @@ $(document).ready(function(){
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic("+item.serial+")\">Delete</a>");
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"edit("+item.serial+")\">Edit</a>");
                 }
-                else if (admin()==="true") {
+                else if (is_admin) {
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic("+item.serial+")\">Delete</a>");
                 }
             });
@@ -140,16 +143,22 @@ $(document).ready(function(){
 });
 
 function admin() {
+    var admin_bool;
     $.ajax({
         type: "POST",
         url: "./php/getAdmin.php",
         data: {
             id: $.cookie('userid'),
         },
+        dataType:"json",
+        async: false,
         success: function (json) {
-            return json.admin;
+            //alert(json.admin);
+            //return json.admin;
+            admin_bool=json.admin;
         }
     });
+    return admin_bool;
 }
 
 function jump(address) {
