@@ -33,7 +33,7 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	//$arr['sell'][$i]['content'] = $row['content'];
 	$arr['sell'][$i]['serial']=$row['serial'];
 	//$arr['sell'][$i]['browsed']=$row['browsed'];
-	//$arr['sell'][$i]['img']=$row['picture'];
+	$arr['sell'][$i]['img']=$row['picture'];
 	$arr['sell'][$i]['title']=$row['title'];
 	$i += 1;
 }
@@ -47,7 +47,7 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	//$arr['buy'][$i]['content'] = $row['content'];
 	$arr['buy'][$i]['serial']=$row['serial'];
 	//$arr['buy'][$i]['browsed']=$row['browsed'];
-	//$arr['buy'][$i]['img']=$row['picture'];
+	$arr['buy'][$i]['img']=$row['picture'];
 	$arr['buy'][$i]['title']=$row['title'];
 	$i += 1;
 }
@@ -61,7 +61,7 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	//$arr['intern'][$i]['content'] = $row['content'];
 	$arr['intern'][$i]['serial']=$row['serial'];
 	//$arr['intern'][$i]['browsed']=$row['browsed'];
-	//$arr['intern'][$i]['img']=$row['picture'];
+	$arr['intern'][$i]['img']=$row['picture'];
 	$arr['intern'][$i]['title']=$row['title'];
 	$i += 1;
 }
@@ -75,7 +75,7 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	//$arr['ptjb'][$i]['content'] = $row['content'];
 	$arr['ptjb'][$i]['serial']=$row['serial'];
 	//$arr['ptjb'][$i]['browsed']=$row['browsed'];
-	//$arr['ptjb'][$i]['img']=$row['picture'];
+	$arr['ptjb'][$i]['img']=$row['picture'];
 	$arr['ptjb'][$i]['title']=$row['title'];
 	$i += 1;
 }
@@ -89,7 +89,7 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	//$arr['stuff'][$i]['content'] = $row['content'];
 	$arr['stuff'][$i]['serial']=$row['serial'];
 	//$arr['stuff'][$i]['browsed']=$row['browsed'];
-	//$arr['stuff'][$i]['img']=$row['picture'];
+	$arr['stuff'][$i]['img']=$row['picture'];
 	$arr['stuff'][$i]['title']=$row['title'];
 	$i += 1;
 }
@@ -103,7 +103,7 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	//$arr['other'][$i]['content'] = $row['content'];
 	$arr['other'][$i]['serial']=$row['serial'];
 	//$arr['other'][$i]['browsed']=$row['browsed'];
-	//$arr['other'][$i]['img']=$row['picture'];
+	$arr['other'][$i]['img']=$row['picture'];
 	$arr['other'][$i]['title']=$row['title'];
 	$i += 1;
 }

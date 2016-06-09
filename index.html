@@ -143,24 +143,30 @@
         <nav class="navbar navbar-default pull-right" role="navigation">
             <ul class="nav navbar-nav">
                 <li class="dropdown yamm-fw" style="width:200px">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#" style="font-size:20px">Sell&Buy<span class="caret"></span></a>
-                    <ul class="dropdown-menu yamm-content" style="width:200px" role="menu">
-                        <li style="margin:10px;"><a href="#" aria-describedby="sell&buy" style="font-size:20px;padding-left:10px" onclick="jump('sell')">Sell</a></li>
-                        <li style="margin:10px;"><a href="topic.html?cate=buy&page=1" style="font-size:20px;padding-left:10px" onclick="jump('buy')">Buy</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown yamm-fw" style="width:200px">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#" style="font-size:20px">Inform<span class="caret"></span></a>
-                    <ul class="dropdown-menu yamm-content" style="width:200px" role="menu">
-                        <li style="margin:10px;"><a href="topic.html?cate=intern&page=1" aria-describedby="inform" style="font-size:20px;padding-left:10px" onclick="jump('intern')">Internship</a></li>
-                        <li style="margin:10px;"><a href="topic.html?cate=ptjb&page=1" style="font-size:20px;padding-left:10px" onclick="jump('ptjb')">Part Time Job</a></li>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#" style="font-size:20px">Buy&Sell<span class="caret"></span></a>
+                    <ul class="dropdown-menu yamm-content" style="width:200px;margin:0;" role="menu">
+                        <li style="margin:10px;"><a href="#" aria-describedby="buy&sell" style="font-size:20px;padding-left:10px" onclick="jump('sell')">Sell</a></li>
+                        <li style="margin:10px;"><a href="#" style="font-size:20px;padding-left:10px" onclick="jump('buy')">Buy</a></li>
                     </ul>
                 </li>
                 <li class="dropdown yamm-fw" style="width:200px">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#" style="font-size:20px">Q&A<span class="caret"></span></a>
-                    <ul class="dropdown-menu yamm-content" style="width:200px" role="menu">
-                        <li style="margin:10px;"><a href="topic.html?cate=stuff&page=1" aria-describedby="q&a" style="font-size:20px;padding-left:10px" onclick="jump('stuff')">About FDU Stuffs</a></li>
-                        <li style="margin:10px;"><a href="topic.html?cate=other&page=1" style="font-size:20px;padding-left:10px" onclick="jump('other')">Other</a></li>
+                    <ul class="dropdown-menu yamm-content" style="width:200px;margin:0;" role="menu">
+                        <li style="margin:10px;"><a href="#" aria-describedby="q&a" style="font-size:18px;padding-left:10px" onclick="jump('more')">More About Fudan</a></li>
+                        <li style="margin:10px;"><a href="#" style="font-size:20px;padding-left:10px" onclick="jump('other')">Other</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown yamm-fw" style="width:200px">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#" style="font-size:20px">Survive<span class="caret"></span></a>
+                    <ul class="dropdown-menu yamm-content" style="width:200px;margin:0;" role="menu">
+                        <li style="margin:10px;"><a href="#" aria-describedby="survive" style="font-size:20px;padding-left:10px" onclick="jump('restaurant')">Restaurant</a></li>
+                        <li style="margin:10px;"><a href="#" style="font-size:20px;padding-left:10px" onclick="jump('house')">Rent House</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown yamm-fw" style="width:200px">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#" style="font-size:20px">Information<span class="caret"></span></a>
+                    <ul class="dropdown-menu yamm-content" style="width:200px;margin:0;" role="menu">
+                        <li style="margin:10px;"><a href="#" aria-describedby="information" style="font-size:20px;padding-left:10px" onclick="jump('job')">Job Postings</a></li>
                     </ul>
                 </li>
             </ul>
@@ -173,11 +179,14 @@
                     <li class="nav-header"><h5 style="height:10px;margin-top:5px">Buy&Sell</h5></li>
                     <li id="buy"><a href="topic.html?cate=buy&page=1">&nbsp;&nbsp;Buy</a></li>
                     <li id="sell"><a href="topic.html?cate=sell&page=1">&nbsp;&nbsp;Sell</a></li>
-                    <li class="nav-header" id="inform"><h5 style="height:10px;margin-top:5px">Information</h5></li>
-                    <li id="ptjb"><a href="topic.html?cate=ptjb&page=1">&nbsp;&nbsp;Job Postings</a></li>
                     <li class="nav-header" id="qa"><h5 style="height:10px;margin-top:3px">Q&A</h5></li>
-                    <li id="stuff"><a href="topic.html?cate=stuff&page=1">&nbsp;&nbsp;More About Fudan</a></li>
+                    <li id="more"><a href="topic.html?cate=more&page=1">&nbsp;&nbsp;More About Fudan</a></li>
                     <li id="other"><a href="topic.html?cate=other&page=1">&nbsp;&nbsp;Other</a></li>
+                    <li class="nav-header" id="survive"><h5 style="height:10px;margin-top:3px">Survive</h5></li>
+                    <li id="restaurant"><a href="topic.html?cate=restaurant&page=1">&nbsp;&nbsp;Restaurant</a></li>
+                    <li id="house"><a href="topic.html?cate=house&page=1">&nbsp;&nbsp;Rent House</a></li>
+                    <li class="nav-header" id="inform"><h5 style="height:10px;margin-top:5px">Information</h5></li>
+                    <li id="job"><a href="topic.html?cate=job&page=1">&nbsp;&nbsp;Job Postings</a></li>
                 </ul>
             </div><!--/.well -->
         </div><!--/span-->
@@ -190,27 +199,32 @@
 
     <div class="row-fluid" style="margin-top:50px;">
         <div class="span12 topicHot" style="margin-left:2.564102564102564%;min-height:250px;">
-            <div id="sellHot" class="span5">
-                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=sell&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Sell</h2>
-            </div>
-            <div id="buyHot" class="span5 offset1">
+            <div id="buyHot" class="span5">
                 <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=buy&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Buy</h2>
             </div>
-        </div>
-        <div class="span12 topicHot" style="min-height:250px">
-            <div id="internHot" class="span5">
-                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=intern&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Internship</h2>
-            </div>
-            <div id="ptjbHot" class="span5 offset1">
-                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=ptjb&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Part Time Job</h2>
+            <div id="sellHot" class="span5 offset1">
+                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=sell&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Sell</h2>
             </div>
         </div>
         <div class="span12 topicHot" style="min-height:250px">
-            <div id="stuffHot" class="span5">
-                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=stuff&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>About FDU Stuffs</h2>
+            <div id="moreHot" class="span5">
+                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=more&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>More About Fudan</h2>
             </div>
             <div id="otherHot" class="span5 offset1">
                 <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=other&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Other</h2>
+            </div>
+        </div>
+        <div class="span12 topicHot" style="min-height:250px">
+            <div id="restaurantHot" class="span5">
+                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=restaurant&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Restaurant</h2>
+            </div>
+            <div id="houseHot" class="span5 offset1">
+                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=house&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Rent House</h2>
+            </div>
+        </div>
+        <div class="span12 topicHot" style="min-height:250px">
+            <div id="jobHot" class="span5">
+                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=job&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Job Postings</h2>
             </div>
         </div>
     </div>
