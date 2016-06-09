@@ -2,340 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92b82b0c-8764-4d94-b527-71ae1eaee70e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/css/smoothness/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/css/smoothness/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/css/smoothness/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/css/smoothness/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/css/smoothness/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/100.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/101.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/102.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/103.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/104.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/105.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/106.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/107.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/108.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/109.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/110.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/111.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/112.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/113.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/114.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/115.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/116.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/117.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/118.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/119.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/120.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/121.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/122.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/123.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/124.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/125.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/126.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/127.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/128.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/129.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/130.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/131.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/132.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/133.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/134.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/14.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/18.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/20.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/23.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/24.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/25.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/26.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/27.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/33.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/36.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/37.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/38.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/39.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/41.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/42.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/44.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/45.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/47.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/49.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/51.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/53.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/55.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/57.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/59.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/61.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/63.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/65.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/66.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/67.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/68.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/7.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/70.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/72.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/73.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/74.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/75.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/76.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/77.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/78.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/79.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/80.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/81.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/82.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/83.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/84.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/85.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/86.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/87.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/88.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/89.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/9.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/90.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/91.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/92.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/93.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/94.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/95.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/96.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/97.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/98.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/99.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/images/static.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/filemanager/images/file-16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/filemanager/images/file-64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/filemanager/images/folder-16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/filemanager/images/folder-64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/filemanager/images/go-up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/image/images/align_left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/image/images/align_right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/image/images/align_top.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/image/images/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/multiimage/images/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/multiimage/images/select-files-en.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/multiimage/images/select-files-zh_CN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/multiimage/images/swfupload.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/themes/common/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/themes/common/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/themes/common/flash.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/themes/common/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/themes/common/media.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/themes/common/rm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/themes/default/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/themes/default/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/themes/qq/editor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/default.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/main.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/project.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v1.0.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v2.0.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v2.1.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v3.0.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v3.1.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v3.2.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v3.3.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v3.4.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v3.5.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v4.0(beta).zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v4.0.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v4.1.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v4.2.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v4.3.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v4.4.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v4.5.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v4.6.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v4.7.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v5.0.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v5.1.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/v5.2.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/write kindeditor 同步调用.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/数据.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/需求.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/피드백/2.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/피드백/3.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/피드백/Feedback to polish FDUROOT.pptx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/피드백/fduroot brand/FUDROOT BRAND PIC.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/피드백/fduroot brand/brand pic2.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/피드백/fduroot brand/滚努府.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/피드백/feedback1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/피드백/model..PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrapValidator.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/docs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/glyphicons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/load.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/spinkit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/yamm.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/auto-height.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/colorpicker.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/custom-plugin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/custom-theme.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/dialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/dynamic-load.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/file-dialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/file-manager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/filter-mode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/image-dialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/js/jquery-ui-1.9.2.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery-ui/js/jquery-ui-1.9.2.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/multi-image-dialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/multi-language.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/newline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/node.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/paste-type.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/qqstyle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/readonly.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/uploadbutton.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/url-type.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/examples/word-count.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/kindeditor-all-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/kindeditor-all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/kindeditor-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/kindeditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lang/zh_CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lang/zh_TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/php/JSON.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/php/demo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/php/file_manager_json.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/php/upload_json.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/anchor/anchor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/autoheight/autoheight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/baidumap/baidumap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/baidumap/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/baidumap/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/clearhtml/clearhtml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/code/code.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/code/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/code/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoticons/emoticons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/filemanager/filemanager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/flash/flash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/image/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/insertfile/insertfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/lineheight/lineheight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/link/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/map/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/map/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/media/media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/multiimage/multiimage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/pagebreak/pagebreak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/plainpaste/plainpaste.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/preview/preview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/quickformat/quickformat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/table/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/template/html/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/template/html/2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/template/html/3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/template/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/wordpaste/wordpaste.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/themes/default/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/themes/qq/qq.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/themes/simple/simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/article.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrapValidator.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/logReg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/write.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/example.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/json.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/others/new.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project3.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/write.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article.html" afterPath="$PROJECT_DIR$/article.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/topic.js" afterPath="$PROJECT_DIR$/js/topic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic.html" afterPath="$PROJECT_DIR$/topic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/write.html" afterPath="$PROJECT_DIR$/write.html" />
     </list>
     <ignored path="project3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -360,7 +34,7 @@
       <file leaf-file-name="load.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/load.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="-618">
               <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
               <folding>
                 <marker date="1459669796774" expanded="true" signature="117:133" placeholder="..." />
@@ -376,49 +50,29 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="875">
+              <caret line="35" column="109" selection-start-line="35" selection-start-column="109" selection-end-line="35" selection-end-column="109" />
               <folding>
-                <marker date="1465229107117" expanded="true" signature="423:436" placeholder="..." />
-                <marker date="1465229107117" expanded="true" signature="505:553" placeholder="..." />
-                <marker date="1465229107117" expanded="true" signature="770:783" placeholder="..." />
-                <marker date="1465229107117" expanded="true" signature="851:899" placeholder="..." />
-                <marker date="1465229107117" expanded="true" signature="1119:1132" placeholder="..." />
-                <marker date="1465229107117" expanded="true" signature="1201:1249" placeholder="..." />
-                <marker date="1465229107117" expanded="true" signature="1472:1485" placeholder="..." />
-                <marker date="1465229107117" expanded="true" signature="1555:1603" placeholder="..." />
-                <marker date="1465229107117" expanded="true" signature="1826:1839" placeholder="..." />
-                <marker date="1465229107117" expanded="true" signature="1909:1957" placeholder="..." />
+                <marker date="1465486366375" expanded="true" signature="423:436" placeholder="..." />
+                <marker date="1465486366375" expanded="true" signature="505:553" placeholder="..." />
+                <marker date="1465486366375" expanded="true" signature="770:783" placeholder="..." />
+                <marker date="1465486366375" expanded="true" signature="851:899" placeholder="..." />
+                <marker date="1465486366375" expanded="true" signature="1117:1130" placeholder="..." />
+                <marker date="1465486366375" expanded="true" signature="1198:1246" placeholder="..." />
+                <marker date="1465486366375" expanded="true" signature="1466:1479" placeholder="..." />
+                <marker date="1465486366375" expanded="true" signature="1548:1596" placeholder="..." />
+                <marker date="1465486366375" expanded="true" signature="1819:1832" placeholder="..." />
+                <marker date="1465486366375" expanded="true" signature="1902:1950" placeholder="..." />
+                <marker date="1465486366375" expanded="true" signature="2188:2201" placeholder="..." />
+                <marker date="1465486366375" expanded="true" signature="2276:2324" placeholder="..." />
+                <marker date="1465486366375" expanded="true" signature="2547:2560" placeholder="..." />
+                <marker date="1465486366375" expanded="true" signature="2630:2678" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2225">
-              <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="169" selection-end-column="21" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="article.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/article.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
@@ -434,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/topic.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="423">
-              <caret line="166" column="97" selection-start-line="166" selection-start-column="97" selection-end-line="166" selection-end-column="97" />
+              <caret line="175" column="21" selection-start-line="175" selection-start-column="21" selection-end-line="175" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -444,27 +98,29 @@
                 <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topic.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="topic.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/topic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+            <state relative-caret-position="1307">
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
-                <marker date="1465269180198" expanded="true" signature="1330:1358" placeholder="..." />
-                <marker date="1465269180198" expanded="true" signature="1507:1535" placeholder="..." />
-                <marker date="1465269180198" expanded="true" signature="3031:3081" placeholder="..." />
-                <marker date="1465269180198" expanded="true" signature="4075:4109" placeholder="..." />
-                <marker date="1465269180198" expanded="true" signature="4281:4315" placeholder="..." />
-                <marker date="1465269180198" expanded="true" signature="5178:5212" placeholder="..." />
-                <marker date="1465269180198" expanded="true" signature="5384:5418" placeholder="..." />
-                <marker date="1465269180198" expanded="true" signature="6337:6387" placeholder="..." />
-                <marker date="1465269180198" expanded="true" signature="7146:7180" placeholder="..." />
-                <marker date="1465269180198" expanded="true" signature="7327:7361" placeholder="..." />
+                <marker date="1465486105948" expanded="true" signature="1606:1634" placeholder="..." />
+                <marker date="1465486105948" expanded="true" signature="1783:1811" placeholder="..." />
+                <marker date="1465486105948" expanded="true" signature="3247:3297" placeholder="..." />
+                <marker date="1465486105948" expanded="true" signature="4323:4357" placeholder="..." />
+                <marker date="1465486105948" expanded="true" signature="4529:4563" placeholder="..." />
+                <marker date="1465486105948" expanded="true" signature="5426:5460" placeholder="..." />
+                <marker date="1465486105948" expanded="true" signature="5632:5666" placeholder="..." />
+                <marker date="1465486105948" expanded="true" signature="5884:5918" placeholder="..." />
+                <marker date="1465486105948" expanded="true" signature="6846:6896" placeholder="..." />
+                <marker date="1465486105948" expanded="true" signature="7655:7689" placeholder="..." />
+                <marker date="1465486105948" expanded="true" signature="7836:7870" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -473,12 +129,13 @@
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3600">
-              <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="153" selection-end-column="21" />
+            <state relative-caret-position="548">
+              <caret line="155" column="105" selection-start-line="155" selection-start-column="105" selection-end-line="155" selection-end-column="105" />
               <folding>
                 <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -487,8 +144,8 @@
       <file leaf-file-name="write.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/write.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2275">
-              <caret line="91" column="58" selection-start-line="91" selection-start-column="58" selection-end-line="91" selection-end-column="58" />
+            <state relative-caret-position="273">
+              <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -497,8 +154,18 @@
       <file leaf-file-name="write.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/write.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="107">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logReg.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/logReg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="557">
+              <caret line="102" column="43" selection-start-line="102" selection-start-column="43" selection-end-line="102" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -507,14 +174,15 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2725">
-              <caret line="180" column="21" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
+            <state relative-caret-position="-352">
+              <caret line="179" column="100" selection-start-line="179" selection-start-column="100" selection-end-line="179" selection-end-column="100" />
               <folding>
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -578,13 +246,13 @@
         <option value="$PROJECT_DIR$/js/load.js" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/js/Happy61.js" />
-        <option value="$PROJECT_DIR$/article.html" />
-        <option value="$PROJECT_DIR$/topic.html" />
-        <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/write.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/topic.html" />
+        <option value="$PROJECT_DIR$/article.html" />
+        <option value="$PROJECT_DIR$/write.html" />
         <option value="$PROJECT_DIR$/js/topic.js" />
+        <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
   </component>
@@ -603,7 +271,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1938" />
+    <option name="width" value="1932" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -792,7 +460,8 @@
       <workItem from="1464757058224" duration="517000" />
       <workItem from="1465223362760" duration="4916000" />
       <workItem from="1465228437995" duration="702000" />
-      <workItem from="1465267451474" duration="3599000" />
+      <workItem from="1465267451474" duration="4207000" />
+      <workItem from="1465484172505" duration="2191000" />
     </task>
     <task id="LOCAL-00001" summary="change admin">
       <created>1465227848990</created>
@@ -801,11 +470,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465227848990</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change banner image">
+      <created>1465484932225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1465484932225</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19229000" />
+    <option name="totallyTimeSpent" value="22028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -817,16 +493,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1932" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24764891" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -834,12 +512,10 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845894" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -856,7 +532,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="change admin" />
+    <MESSAGE value="change banner image" />
+    <option name="LAST_COMMIT_MESSAGE" value="change banner image" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -888,6 +565,7 @@
             <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -902,6 +580,7 @@
             <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -923,6 +602,7 @@
             <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -944,6 +624,7 @@
             <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -965,6 +646,7 @@
             <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -979,6 +661,7 @@
             <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -993,6 +676,7 @@
             <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1007,6 +691,7 @@
             <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1021,6 +706,7 @@
             <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1035,6 +721,7 @@
             <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1049,6 +736,7 @@
             <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1063,6 +751,7 @@
             <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1193,13 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/logReg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="102" column="43" selection-start-line="102" selection-start-column="43" selection-end-line="102" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/资料/大二/项目/SpinKit-master/css/spinners/1-rotating-plane.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1221,9 +903,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/Happy61.js" />
+    <entry file="file://$PROJECT_DIR$/test.html" />
+    <entry file="file://$PROJECT_DIR$/topic.js" />
+    <entry file="file://$PROJECT_DIR$/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="163" column="48" selection-start-line="163" selection-start-column="48" selection-end-line="163" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/load.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="-618">
           <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
           <folding>
             <marker date="1459669796774" expanded="true" signature="117:133" placeholder="..." />
@@ -1235,24 +951,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article.html">
+    <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2225">
-          <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="169" selection-end-column="21" />
+        <state relative-caret-position="548">
+          <caret line="155" column="105" selection-start-line="155" selection-start-column="105" selection-end-line="155" selection-end-column="105" />
+          <folding>
+            <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/logReg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="102" column="43" selection-start-line="102" selection-start-column="43" selection-end-line="102" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/topic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1307">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <marker date="1465486105948" expanded="true" signature="1606:1634" placeholder="..." />
+            <marker date="1465486105948" expanded="true" signature="1783:1811" placeholder="..." />
+            <marker date="1465486105948" expanded="true" signature="3247:3297" placeholder="..." />
+            <marker date="1465486105948" expanded="true" signature="4323:4357" placeholder="..." />
+            <marker date="1465486105948" expanded="true" signature="4529:4563" placeholder="..." />
+            <marker date="1465486105948" expanded="true" signature="5426:5460" placeholder="..." />
+            <marker date="1465486105948" expanded="true" signature="5632:5666" placeholder="..." />
+            <marker date="1465486105948" expanded="true" signature="5884:5918" placeholder="..." />
+            <marker date="1465486105948" expanded="true" signature="6846:6896" placeholder="..." />
+            <marker date="1465486105948" expanded="true" signature="7655:7689" placeholder="..." />
+            <marker date="1465486105948" expanded="true" signature="7836:7870" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/write.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="179" column="100" selection-start-line="179" selection-start-column="100" selection-end-line="179" selection-end-column="100" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="175" column="21" selection-start-line="175" selection-start-column="21" selection-end-line="175" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="109" selection-start-line="35" selection-start-column="109" selection-end-line="35" selection-end-column="109" />
+          <folding>
+            <marker date="1465486366375" expanded="true" signature="423:436" placeholder="..." />
+            <marker date="1465486366375" expanded="true" signature="505:553" placeholder="..." />
+            <marker date="1465486366375" expanded="true" signature="770:783" placeholder="..." />
+            <marker date="1465486366375" expanded="true" signature="851:899" placeholder="..." />
+            <marker date="1465486366375" expanded="true" signature="1117:1130" placeholder="..." />
+            <marker date="1465486366375" expanded="true" signature="1198:1246" placeholder="..." />
+            <marker date="1465486366375" expanded="true" signature="1466:1479" placeholder="..." />
+            <marker date="1465486366375" expanded="true" signature="1548:1596" placeholder="..." />
+            <marker date="1465486366375" expanded="true" signature="1819:1832" placeholder="..." />
+            <marker date="1465486366375" expanded="true" signature="1902:1950" placeholder="..." />
+            <marker date="1465486366375" expanded="true" signature="2188:2201" placeholder="..." />
+            <marker date="1465486366375" expanded="true" signature="2276:2324" placeholder="..." />
+            <marker date="1465486366375" expanded="true" signature="2547:2560" placeholder="..." />
+            <marker date="1465486366375" expanded="true" signature="2630:2678" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1263,106 +1062,6 @@
           <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding>
             <marker date="1459603952348" expanded="true" signature="1811:1828" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Happy61.js" />
-    <entry file="file://$PROJECT_DIR$/test.html" />
-    <entry file="file://$PROJECT_DIR$/topic.js" />
-    <entry file="file://$PROJECT_DIR$/write.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2275">
-          <caret line="91" column="58" selection-start-line="91" selection-start-column="58" selection-end-line="91" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/write.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3600">
-          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="153" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2725">
-          <caret line="180" column="21" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <marker date="1465229107117" expanded="true" signature="423:436" placeholder="..." />
-            <marker date="1465229107117" expanded="true" signature="505:553" placeholder="..." />
-            <marker date="1465229107117" expanded="true" signature="770:783" placeholder="..." />
-            <marker date="1465229107117" expanded="true" signature="851:899" placeholder="..." />
-            <marker date="1465229107117" expanded="true" signature="1119:1132" placeholder="..." />
-            <marker date="1465229107117" expanded="true" signature="1201:1249" placeholder="..." />
-            <marker date="1465229107117" expanded="true" signature="1472:1485" placeholder="..." />
-            <marker date="1465229107117" expanded="true" signature="1555:1603" placeholder="..." />
-            <marker date="1465229107117" expanded="true" signature="1826:1839" placeholder="..." />
-            <marker date="1465229107117" expanded="true" signature="1909:1957" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="166" column="97" selection-start-line="166" selection-start-column="97" selection-end-line="166" selection-end-column="97" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/topic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
-          <folding>
-            <marker date="1465269180198" expanded="true" signature="1330:1358" placeholder="..." />
-            <marker date="1465269180198" expanded="true" signature="1507:1535" placeholder="..." />
-            <marker date="1465269180198" expanded="true" signature="3031:3081" placeholder="..." />
-            <marker date="1465269180198" expanded="true" signature="4075:4109" placeholder="..." />
-            <marker date="1465269180198" expanded="true" signature="4281:4315" placeholder="..." />
-            <marker date="1465269180198" expanded="true" signature="5178:5212" placeholder="..." />
-            <marker date="1465269180198" expanded="true" signature="5384:5418" placeholder="..." />
-            <marker date="1465269180198" expanded="true" signature="6337:6387" placeholder="..." />
-            <marker date="1465269180198" expanded="true" signature="7146:7180" placeholder="..." />
-            <marker date="1465269180198" expanded="true" signature="7327:7361" placeholder="..." />
           </folding>
         </state>
       </provider>
