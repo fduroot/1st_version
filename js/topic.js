@@ -163,7 +163,6 @@ function admin() {
     return admin_bool;
 }
 
-
 function jump(address) {
     if(getQueryString("search")===null && getQueryString("arr")===null)
         window.location.href="topic.html?cate="+getQueryString("cate")+"&page="+address;
