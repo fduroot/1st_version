@@ -5,7 +5,7 @@ function getQueryString(name) {
 }
 
 $(document).ready(function(){
-    $('#searchBar').submit(function () {
+    $('#searchBar').submit(function (event) {
         searchTopic();
         return false;
     });
@@ -51,7 +51,7 @@ $(document).ready(function(){
             page : getQueryString("page"),
             arr : getQueryString("arr"),
             category : getQueryString("cate"),
-            search : getQueryString("search")//document.getElementsByName("search")[0].value,
+            search : getQueryString("search"),//document.getElementsByName("search")[0].value,
         },
         success:function(json){
             var page = parseInt(getQueryString("page"));
@@ -75,14 +75,13 @@ $(document).ready(function(){
                     else
                         $("<li><a href=\"#\" onclick=\"jump('"+i+"')\" style=\"color:rgb(255,255,255);background:rgb(130,200,255)\">"+i+"</a></li>").insertBefore('#nextLi');
                 }
-            var is_admin = false;
-            if (admin())
-                is_admin=true;
+            var is_admin;
+            if (admin()) is_admin=true; else is_admin=false;
             $.each(json.notify, function(index, item) {
                 if(getQueryString("search")===null)
-                    $('tbody').append("<tr class='admin'><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span>["+item.commentNum+"]</span><span class='glyphicon glyphicon-flag'></span><img src='"+item.jpg+"' class='pull-right' style='max-width: 150px; max-height: 150px'></th><th class=\"span2\">"+item.time+"</th></tr>");
+                    $('tbody').append("<tr class='admin'><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span class='glyphicon glyphicon-flag'></span></th><th class=\"span2\">"+item.time+"</th></tr>");
                 else
-                    $('tbody').append("<tr class='admin'><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span>["+item.commentNum+"]</span><span class='glyphicon glyphicon-flag'></span><img src='"+item.jpg+"' class='pull-right' style='max-width: 150px; max-height: 150px'></th><th class=\"span2\">"+item.time+"</th><th class=\"span2\">"+item.readAmount+"</th><th class=\"span2\">"+item.cate+"</th></tr>");
+                    $('tbody').append("<tr class='admin'><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span class='glyphicon glyphicon-flag'></span></th><th class=\"span2\">"+item.time+"</th><th class=\"span2\">"+item.readAmount+"</th><th class=\"span2\">"+item.cate+"</th></tr>");
                 if(is_admin) {
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic("+item.serial+")\">Delete</a>");
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"edit("+item.serial+")\">Edit</a>");
@@ -90,9 +89,9 @@ $(document).ready(function(){
             });
             $.each(json.detail, function(index, item) {
                 if(getQueryString("search")===null)
-                    $('tbody').append("<tr><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span>["+item.commentNum+"]</span><img src='"+item.jpg+"' class='pull-right' style='max-width: 150px; max-height: 150px'></th><th class=\"span2\">"+item.time+"</th></tr>");
+                    $('tbody').append("<tr><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a></th><th class=\"span2\">"+item.time+"</th></tr>");
                 else
-                    $('tbody').append("<tr><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span>["+item.commentNum+"]</span><img src='"+item.jpg+"' class='pull-right' style='max-width: 150px; max-height: 150px'></th><th class=\"span2\">"+item.time+"</th><th class=\"span2\">"+item.readAmount+"</th><th class=\"span2\">"+item.cate+"</th></tr>");
+                    $('tbody').append("<tr><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a></th><th class=\"span2\">"+item.time+"</th><th class=\"span2\">"+item.readAmount+"</th><th class=\"span2\">"+item.cate+"</th></tr>");
                 if($.cookie('userid')===item.author) {
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic("+item.serial+")\">Delete</a>");
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"edit("+item.serial+")\">Edit</a>");
@@ -148,12 +147,12 @@ $(document).ready(function(){
 });
 
 function admin() {
-    var admin_bool = true;
+    var admin_bool;
     $.ajax({
         type: "POST",
         url: "./php/getAdmin.php",
         data: {
-            id: $.cookie('userid')
+            id: $.cookie('userid'),
         },
         dataType:"json",
         async: false,
@@ -163,6 +162,7 @@ function admin() {
     });
     return admin_bool;
 }
+
 
 function jump(address) {
     if(getQueryString("search")===null && getQueryString("arr")===null)
@@ -195,14 +195,14 @@ function deleteTopic(serial) {
             type : "POST",
             url : "./php/deleteArticle.php",
             data : {
-                serial : serial
+                serial : serial,
             },
             success : function() {
                 alert('Success');
                 location.reload();
             }
         });
-    }
+    };
 }
 
 function newTopic() {
