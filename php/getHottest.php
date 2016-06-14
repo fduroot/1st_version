@@ -24,7 +24,7 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	$i += 1;
 }
 $arr['passage']['slide']=$i;*/
-$sql = "SELECT title,serial FROM `fduroot_article` WHERE category='sell' ORDER BY created_time DESC limit 0,4";
+$sql = "SELECT title,serial,created_time,nickname,browsed FROM `fduroot_article` WHERE category='sell' ORDER BY created_time DESC limit 0,4";
 $retval = mysqli_query($conn,$sql);
 //$arr = array();
 $i = 0;
@@ -32,13 +32,15 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	//$arr['sell'][$i]['category'] = $row['categorygory'];
 	//$arr['sell'][$i]['content'] = $row['content'];
 	$arr['sell'][$i]['serial']=$row['serial'];
-	//$arr['sell'][$i]['browsed']=$row['browsed'];
+	$arr['sell'][$i]['count']=$row['browsed'];
+	$arr['sell'][$i]['time']=$row['created_time'];
+	$arr['sell'][$i]['nickname']=$row['nickname'];
 	//$arr['sell'][$i]['img']=$row['picture'];
 	$arr['sell'][$i]['title']=$row['title'];
 	$i += 1;
 }
 $arr['passage']['sell']=$i;
-$sql = "SELECT title,serial FROM `fduroot_article` WHERE category='buy' ORDER BY created_time DESC limit 0,4";
+$sql = "SELECT title,serial,created_time,nickname,browsed FROM `fduroot_article` WHERE category='buy' ORDER BY created_time DESC limit 0,4";
 $retval = mysqli_query($conn,$sql);
 //$arr = array();
 $i = 0;
@@ -46,13 +48,15 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	//$arr['sell'][$i]['category'] = $row['categorygory'];
 	//$arr['buy'][$i]['content'] = $row['content'];
 	$arr['buy'][$i]['serial']=$row['serial'];
-	//$arr['buy'][$i]['browsed']=$row['browsed'];
+	$arr['buy'][$i]['count']=$row['browsed'];
+	$arr['buy'][$i]['time']=$row['created_time'];
+	$arr['buy'][$i]['nickname']=$row['nickname'];
 	//$arr['buy'][$i]['img']=$row['picture'];
 	$arr['buy'][$i]['title']=$row['title'];
 	$i += 1;
 }
 $arr['passage']['buy']=$i;
-$sql = "SELECT title,serial FROM `fduroot_article` WHERE category='job' ORDER BY created_time DESC limit 0,4";
+$sql = "SELECT title,serial,created_time,nickname,browsed FROM `fduroot_article` WHERE category='job' ORDER BY created_time DESC limit 0,4";
 $retval = mysqli_query($conn,$sql);
 //$arr = array();
 $i = 0;
@@ -60,13 +64,15 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	//$arr['sell'][$i]['category'] = $row['categorygory'];
 	//$arr['job'][$i]['content'] = $row['content'];
 	$arr['job'][$i]['serial']=$row['serial'];
-	//$arr['job'][$i]['browsed']=$row['browsed'];
+	$arr['job'][$i]['count']=$row['browsed'];
+	$arr['job'][$i]['time']=$row['created_time'];
+	$arr['job'][$i]['nickname']=$row['nickname'];
 	//$arr['job'][$i]['img']=$row['picture'];
 	$arr['job'][$i]['title']=$row['title'];
 	$i += 1;
 }
 $arr['passage']['job']=$i;
-$sql = "SELECT title,serial FROM `fduroot_article` WHERE category='other' ORDER BY created_time DESC limit 0,4";
+$sql = "SELECT title,serial,created_time,nickname,browsed FROM `fduroot_article` WHERE category='other' ORDER BY created_time DESC limit 0,4";
 $retval = mysqli_query($conn,$sql);
 //$arr = array();
 $i = 0;
@@ -74,13 +80,15 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	//$arr['sell'][$i]['category'] = $row['categorygory'];
 	//$arr['other'][$i]['content'] = $row['content'];
 	$arr['other'][$i]['serial']=$row['serial'];
-	//$arr['other'][$i]['browsed']=$row['browsed'];
+	$arr['other'][$i]['count']=$row['browsed'];
+	$arr['other'][$i]['time']=$row['created_time'];
+	$arr['other'][$i]['nickname']=$row['nickname'];
 	//$arr['other'][$i]['img']=$row['picture'];
 	$arr['other'][$i]['title']=$row['title'];
 	$i += 1;
 }
 $arr['passage']['other']=$i;
-$sql = "SELECT title,serial FROM `fduroot_article` WHERE category='more' ORDER BY created_time DESC limit 0,4";
+$sql = "SELECT title,serial,created_time,nickname,browsed FROM `fduroot_article` WHERE category='more' ORDER BY created_time DESC limit 0,4";
 $retval = mysqli_query($conn,$sql);
 //$arr = array();
 $i = 0;
@@ -88,13 +96,15 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	//$arr['sell'][$i]['category'] = $row['categorygory'];
 	//$arr['more'][$i]['content'] = $row['content'];
 	$arr['more'][$i]['serial']=$row['serial'];
-	//$arr['more'][$i]['browsed']=$row['browsed'];
+	$arr['more'][$i]['count']=$row['browsed'];
+	$arr['more'][$i]['time']=$row['created_time'];
+	$arr['more'][$i]['nickname']=$row['nickname'];
 	//$arr['more'][$i]['img']=$row['picture'];
 	$arr['more'][$i]['title']=$row['title'];
 	$i += 1;
 }
 $arr['passage']['more']=$i;
-$sql = "SELECT title,serial FROM `fduroot_article` WHERE category='restaurant' ORDER BY created_time DESC limit 0,4";
+$sql = "SELECT title,serial,created_time,nickname,browsed FROM `fduroot_article` WHERE category='restaurant' ORDER BY created_time DESC limit 0,4";
 $retval = mysqli_query($conn,$sql);
 //$arr = array();
 $i = 0;
@@ -102,13 +112,15 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	//$arr['restaurant'][$i]['category'] = $row['categorygory'];
 	//$arr['restaurant'][$i]['content'] = $row['content'];
 	$arr['restaurant'][$i]['serial']=$row['serial'];
-	//$arr['restaurant'][$i]['browsed']=$row['browsed'];
+	$arr['restaurant'][$i]['count']=$row['browsed'];
+	$arr['restaurant'][$i]['time']=$row['created_time'];
+	$arr['restaurant'][$i]['nickname']=$row['nickname'];
 	//$arr['restaurant'][$i]['img']=$row['picture'];
 	$arr['restaurant'][$i]['title']=$row['title'];
 	$i += 1;
 }
 $arr['passage']['restaurant']=$i;
-$sql = "SELECT title,serial FROM `fduroot_article` WHERE category='house' ORDER BY created_time DESC limit 0,4";
+$sql = "SELECT title,serial,created_time,nickname,browsed FROM `fduroot_article` WHERE category='house' ORDER BY created_time DESC limit 0,4";
 $retval = mysqli_query($conn,$sql);
 //$arr = array();
 $i = 0;
@@ -116,7 +128,9 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	//$arr['house'][$i]['category'] = $row['categorygory'];
 	//$arr['house'][$i]['content'] = $row['content'];
 	$arr['house'][$i]['serial']=$row['serial'];
-	//$arr['house'][$i]['browsed']=$row['browsed'];
+	$arr['house'][$i]['count']=$row['browsed'];
+	$arr['house'][$i]['time']=$row['created_time'];
+	$arr['house'][$i]['nickname']=$row['nickname'];
 	//$arr['house'][$i]['img']=$row['picture'];
 	$arr['house'][$i]['title']=$row['title'];
 	$i += 1;

@@ -115,8 +115,14 @@ $visited = 0;
 $src=$img[2];
 //echo "$img[2]";
 //$comments = 0;
+$sql="SELECT nickname FROM fduroot_user WHERE user_id='$userId'";
+$retval = mysqli_query( $conn,$sql);
+$nick="";
+while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
+	$nick=$row['nickname'];
+}
 //echo "</br>$ord</br>";
-$sql = "INSERT INTO `fduroot_article` " . "(`author_id`,`title`,`content`,`browsed`,`category`,`created_time`,`picture`) " . "VALUES " . "('$userId','$title','$ptext','$visited','$category','$ptime','$src')";
+$sql = "INSERT INTO `fduroot_article` " . "(`author_id`,`title`,`content`,`browsed`,`category`,`created_time`,`picture`,`nickname`,`comments`) " . "VALUES " . "('$userId','$title','$ptext','$visited','$category','$ptime','$src','$nick','0')";
 //echo "$sql</br>";
 //die("test");
 //mysql_select_db('blog');
