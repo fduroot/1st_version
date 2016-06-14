@@ -5,7 +5,7 @@ function getQueryString(name) {
 }
 
 $(document).ready(function(){
-    $('#searchBar').submit(function (event) {
+    $('#searchBar').submit(function () {
         searchTopic();
         return false;
     });
@@ -51,7 +51,7 @@ $(document).ready(function(){
             page : getQueryString("page"),
             arr : getQueryString("arr"),
             category : getQueryString("cate"),
-            search : getQueryString("search"),//document.getElementsByName("search")[0].value,
+            search : getQueryString("search")//document.getElementsByName("search")[0].value,
         },
         success:function(json){
             var page = parseInt(getQueryString("page"));
@@ -75,8 +75,9 @@ $(document).ready(function(){
                     else
                         $("<li><a href=\"#\" onclick=\"jump('"+i+"')\" style=\"color:rgb(255,255,255);background:rgb(130,200,255)\">"+i+"</a></li>").insertBefore('#nextLi');
                 }
-            var is_admin;
-            if (admin()) is_admin=true; else is_admin=false;
+            var is_admin = false;
+            if (admin())
+                is_admin=true;
             $.each(json.notify, function(index, item) {
                 if(getQueryString("search")===null)
                     $('tbody').append("<tr class='admin'><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span>["+item.commentNum+"]</span><span class='glyphicon glyphicon-flag'></span><img src='"+item.jpg+"' class='pull-right' style='max-width: 150px; max-height: 150px'></th><th class=\"span2\">"+item.time+"</th></tr>");
@@ -147,12 +148,12 @@ $(document).ready(function(){
 });
 
 function admin() {
-    var admin_bool;
+    var admin_bool = true;
     $.ajax({
         type: "POST",
         url: "./php/getAdmin.php",
         data: {
-            id: $.cookie('userid'),
+            id: $.cookie('userid')
         },
         dataType:"json",
         async: false,
@@ -194,14 +195,14 @@ function deleteTopic(serial) {
             type : "POST",
             url : "./php/deleteArticle.php",
             data : {
-                serial : serial,
+                serial : serial
             },
             success : function() {
                 alert('Success');
                 location.reload();
             }
         });
-    };
+    }
 }
 
 function newTopic() {
