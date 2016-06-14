@@ -40,8 +40,9 @@ $(document).ready(function () {
             $('title').html(json.title);
             //$('#article_text').innerHTML="<p id=\"article_text\">"+json.text+"</p>";
             $('#article_text').html(json.content);
-            $('#viewNum').html(json.viewNum);
-            $('#commentNum').html(json.commentNum);
+            $('#viewNum').html("viewnbsp;"+json.viewNum);
+            $('#viewNum').after("<span>|</span>");
+            $('#commentNum').html("commentnbsp;"+json.commentNum);
         }
     });
     $.ajax({
