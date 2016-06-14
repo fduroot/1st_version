@@ -36,10 +36,12 @@ $(document).ready(function () {
             serial: getQueryString("serial"),
         },
         success: function (json) {
-            $('#article_title').html(json.title);
+            $('#article_title').html(json.title+"<span style='font-size: 20px; margin-left: 8px'>"+item.cate+"</span><span class='pull-right' style='font-size: 20px;'>"+item.time+"</span>");
             $('title').html(json.title);
             //$('#article_text').innerHTML="<p id=\"article_text\">"+json.text+"</p>";
-            $('#article_text').html("<p id=\"article_text\">" + json.content + "</p>");
+            $('#article_text').html(json.content);
+            $('#viewNum').html(json.viewNum);
+            $('#commentNum').html(json.commentNum);
         }
     });
     $.ajax({
