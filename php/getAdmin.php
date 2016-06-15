@@ -22,7 +22,8 @@ $retval = mysqli_query($conn,$sql);
 $arr = array();
 $arr['admin']=false;
 while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
-    $arr['admin'] = true;
+    //var_dump($row['auth']);
+    if ($row['auth']!==null) $arr['admin'] = true;
 }
 $str = json_encode($arr);
 echo "$str";
