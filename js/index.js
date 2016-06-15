@@ -4,9 +4,8 @@ $(document).ready(function(){
         url:"./php/getHottest.php",
         dataType:"json",
         data: {
-        },
+          },
         success:function(json){
-            var img;
             if (json.passage.sell != 0)
                 $.each(json.sell, function(index, item) {
                     $('#sellHot').append("<div style=\"margin:5px 0;\"><a href=\"article.html?cate=sell&serial="+item.serial+"\" style=\"text-decoration:none;color:black;font-size:20px;\">"+item.title+"<span class='pull-right' style='font-size: 16px'>["+item.nickname+"&nbsp;"+item.time+"&nbsp;"+item.count+"&nbsp;viewed]</span></a></div>");
