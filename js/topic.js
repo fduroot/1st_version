@@ -79,20 +79,14 @@ $(document).ready(function(){
             if (admin())
                 is_admin=true;
             $.each(json.notify, function(index, item) {
-                if(getQueryString("search")===null)
-                    $('tbody').append("<tr class='admin'><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span class='glyphicon glyphicon-flag'></span><img src='"+item.jpg+"' class='pull-right' style='max-width: 150px; max-height: 150px'></th><th class=\"span2\">"+item.time+"</th></tr>");
-                else
-                    $('tbody').append("<tr class='admin'><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span class='glyphicon glyphicon-flag'></span><img src='"+item.jpg+"' class='pull-right' style='max-width: 150px; max-height: 150px'></th><th class=\"span2\">"+item.time+"</th><th class=\"span2\">"+item.readAmount+"</th><th class=\"span2\">"+item.cate+"</th></tr>");
+                $('tbody').append("<tr class='admin'><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span class='glyphicon glyphicon-flag'></span></th><th class='span2'>"+item.id+"</th><th class=\"span2\">"+item.time+"</th><th class=\"span2\">"+item.readAmount+"</th></tr>");
                 if(is_admin) {
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic("+item.serial+")\">Delete</a>");
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"edit("+item.serial+")\">Edit</a>");
                 }
             });
             $.each(json.detail, function(index, item) {
-                if(getQueryString("search")===null)
-                    $('tbody').append("<tr><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><img src='"+item.jpg+"' class='pull-right' style='max-width: 150px; max-height: 150px'></th><th class=\"span2\">"+item.time+"</th></tr>");
-                else
-                    $('tbody').append("<tr><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><img src='"+item.jpg+"' class='pull-right' style='max-width: 150px; max-height: 150px'></th><th class=\"span2\">"+item.time+"</th><th class=\"span2\">"+item.readAmount+"</th><th class=\"span2\">"+item.cate+"</th></tr>");
+                $('tbody').append("<tr><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a></th><th class='span2'>"+item.id+"</th><th class=\"span2\">"+item.time+"</th><th class=\"span2\">"+item.readAmount+"</th></tr>");
                 if($.cookie('userid')===item.author) {
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic("+item.serial+")\">Delete</a>");
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"edit("+item.serial+")\">Edit</a>");
