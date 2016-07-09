@@ -1,3 +1,4 @@
+6.20
 change time format
 改动：去掉item.time的最后三位，即不显示秒
 后台相关：无
@@ -8,4 +9,9 @@ change id to nickname in topic.js
 
 change index style
 改动：修改热门文章字体大小
+后台相关：无
+
+7.9
+change index.html style
+改动：修改部分上次漏掉的标题样式
 后台相关：无
