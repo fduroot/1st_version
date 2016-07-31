@@ -82,7 +82,7 @@ $(document).ready(function(){
             $.each(json.notify, function(index, item) {
                 time = item.time;
                 time = time.substr(0,time.length-3);
-                $('tbody').append("<tr class='admin'><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span class='glyphicon glyphicon-flag'></span></th><th class='span2'>"+item.nickname+"</th><th class=\"span2\">"+time+"</th><th class=\"span2\">"+item.readAmount+"</th></tr>");
+                $('tbody').append("<tr class='admin'><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span style='margin-left: 10px'>["+item.commentNum+"]</span><span class='glyphicon glyphicon-flag'></span></th><th class='span2'>"+item.nickname+"</th><th class=\"span2\">"+time+"</th><th class=\"span2\">"+item.readAmount+"</th></tr>");
                 if(is_admin) {
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic("+item.serial+")\">Delete</a>");
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"edit("+item.serial+")\">Edit</a>");
@@ -91,7 +91,7 @@ $(document).ready(function(){
             $.each(json.detail, function(index, item) {
                 time = item.time;
                 time = time.substr(0,time.length-3);
-                $('tbody').append("<tr><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a></th><th class='span2'>"+item.nickname+"</th><th class=\"span2\">"+time+"</th><th class=\"span2\">"+item.readAmount+"</th></tr>");
+                $('tbody').append("<tr><th class=\"span5\"><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\">"+item.title+"</a><span style='margin-left: 10px'>["+item.commentNum+"]</span></th><th class='span2'>"+item.nickname+"</th><th class=\"span2\">"+time+"</th><th class=\"span2\">"+item.readAmount+"</th></tr>");
                 if($.cookie('userid')===item.author) {
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic("+item.serial+")\">Delete</a>");
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"edit("+item.serial+")\">Edit</a>");
@@ -143,6 +143,8 @@ $(document).ready(function(){
      } else {
      $('#edit_btn').attr("href", "write.html?targetId=" + para[0][1] + "&style=new&type=buy");
      }
+    var commentNum=5;
+    $('tbody').append("<tr><th class=\"span5\"><a href=\"article.html?cate=buy&serial=1\">hhh</a><span style='margin-left: 10px'>["+commentNum+"]</span></th><th class='span2'>Kevin</th><th class=\"span2\">2016-07-31</th><th class=\"span2\">1</th></tr>");
      */
 });
 
