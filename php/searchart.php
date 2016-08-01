@@ -64,26 +64,26 @@ $offset = ($page - 1) * 20;
 if (isset($searchStuff)) {
     if ($searchStuff !== "") {
         if ($searchMethod !== "search") {
-            $sql = "SELECT category,title,created_time,serial,browsed,content,author_id FROM `fduroot_article` WHERE category='$searchMethod' AND title LIKE '%$searchStuff%' ORDER BY $ordm $ord LIMIT $offset,20";
+            $sql = "SELECT category,title,created_time,serial,browsed,content,author_id,comments,nickname FROM `fduroot_article` WHERE category='$searchMethod' AND title LIKE '%$searchStuff%' ORDER BY $ordm $ord LIMIT $offset,20";
             $sqlv = "select count(*) from fduroot_article WHERE category='$searchMethod' AND title LIKE '%$searchStuff%'";
 
         } else {
-            $sql = "SELECT category,title,created_time,serial,browsed,content,author_id FROM `fduroot_article` WHERE title LIKE '%$searchStuff%' ORDER BY $ordm $ord LIMIT $offset,20";
+            $sql = "SELECT category,title,created_time,serial,browsed,content,author_id,comments,nickname FROM `fduroot_article` WHERE title LIKE '%$searchStuff%' ORDER BY $ordm $ord LIMIT $offset,20";
             $sqlv = "select count(*) from fduroot_article WHERE title LIKE '%$searchStuff%'";
         }
         //echo "$sql";
     } else {
         if ($searchMethod !== "search") {
-            $sql = "SELECT category,title,created_time,serial,browsed,content,author_id FROM `fduroot_article` WHERE category='$searchMethod' ORDER BY $ordm $ord LIMIT $offset,20";
+            $sql = "SELECT category,title,created_time,serial,browsed,content,author_id,comments,nickname FROM `fduroot_article` WHERE category='$searchMethod' ORDER BY $ordm $ord LIMIT $offset,20";
             $sqlv = "select count(*) from fduroot_article WHERE category='$searchMethod'";
         } else {
-            $sql = "SELECT category,title,created_time,serial,browsed,content,author_id FROM `fduroot_article` ORDER BY $ordm $ord LIMIT $offset,20";
+            $sql = "SELECT category,title,created_time,serial,browsed,content,author_id,comments,nickname FROM `fduroot_article` ORDER BY $ordm $ord LIMIT $offset,20";
             $sqlv = "select count(*) from fduroot_article";
         }
         //echo "$sql";
     }
 } else {
-    $sql = "SELECT category,title,created_time,serial,browsed,content,author_id FROM `fduroot_article` ORDER BY $ordm $ord LIMIT $offset,20";
+    $sql = "SELECT category,title,created_time,serial,browsed,content,author_id,comments,nickname FROM `fduroot_article` ORDER BY $ordm $ord LIMIT $offset,20";
     $sqlv = "select count(*) from fduroot_article";
     //echo "$sql";
 }
@@ -132,10 +132,10 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
         $arr1[$i2]['serial'] = $row['serial'];
         $arr1[$i2]['cate'] = $row['category'];
         $arr1[$i2]['readAmount'] = $row['browsed'];
-        //$arr[$i]['comments'] = $row['comments'];
+        $arr1[$i2]['commentNum'] = $row['comments'];
         $arr1[$i2]['id']=$row['author_id'];
         $arr1[$i2]['content'] = $row['content'];
-        $arr1[$i2]['author'] = $row['author_id'];
+        $arr1[$i2]['nickname'] = $row['nickname'];
         $i2 += 1;
     } else {
         $arr[$i1] = array();
@@ -144,10 +144,10 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
         $arr[$i1]['serial'] = $row['serial'];
         $arr[$i1]['cate'] = $row['category'];
         $arr[$i1]['readAmount'] = $row['browsed'];
-        //$arr[$i]['comments'] = $row['comments'];
+        $arr[$i1]['commentNum'] = $row['comments'];
         $arr[$i1]['id']=$row['author_id'];
         $arr[$i1]['content'] = $row['content'];
-        $arr[$i1]['author'] = $row['author_id'];
+        $arr[$i1]['nickname'] = $row['nickname'];
         $i1 += 1;
         //echo $row['title'];
 
