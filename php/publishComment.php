@@ -32,6 +32,14 @@ if (!isset($_COOKIE['userid'])) {
 //$nickname=$_POST['nickname'];
 //die("$userId");
 $time= date('Y-m-d H:i:s');
+$sql="SELECT nickname FROM fduroot_user WHERE user_id='$userId'";
+$retval = mysqli_query( $conn,$sql);
+$comments=0;
+while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
+	$comments=$row['comments'];
+}
+$sql="UPDATE fduroot_article SET comments=$coments+1 WHERE serial='$serial'";
+$retval = mysqli_query($conn,$sql);
 $sql = "INSERT INTO fduroot_comment".
 "(article_serial,author_id,content,created_time,replier_id,nickname)".
 "VALUES".

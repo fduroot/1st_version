@@ -1,0 +1,22 @@
+6.20
+change time format
+改动：去掉item.time的最后三位，即不显示秒
+后台相关：无
+
+change id to nickname in topic.js
+改动：将显示内容从id改为nickname，因为本网站的id其实就是用户名，nickname才是应该显示给其他人的名称（未与客户讨论，可能不对）
+后台相关：searchart.php中的notify与detail字段中的id改为nickname
+
+change index style
+改动：修改热门文章字体大小
+后台相关：无
+
+7.9
+change index.html style
+改动：修改部分上次漏掉的标题样式
+后台相关：无
+
+7.31
+show commentNum on topic
+改动：在topic页面上显示每条文章的评论数
+后台相关：searchart.php中的notify与detail字段需要提供各文章的评论数，变量为commentNum

@@ -13,13 +13,26 @@
     <link href="css/load.css" rel="stylesheet">
     <link href="css/yamm.css" rel="stylesheet">
     <style type="text/css">
+        #theme {
+            margin-left: 60px;
+            margin-top: -25px;
+            height: 85px;
+        }
         @media (max-width: 980px) {
         /* Enable use of floated navbar text */
-        .navbar-text.pull-right {
-        float: none;
-        padding-left: 5px;
-        padding-right: 5px;
-        }
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            #theme {
+                margin-left: 60px;
+                margin-top: -20px;
+                height: 75px;
+            }
+            nav {
+                display: none;
+            }
         }
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
@@ -85,8 +98,10 @@
             </div>
         </div>
         <div class="modal-footer">
-            <input name="url" style="display:none" class="url">
-            <input name="write" style="display:none" class="write">
+            <form>
+                <input name="url" style="display:none" class="url">
+                <input name="write" style="display:none" class="write">
+            </form>
             <button class="btn btn-primary" type="submit">Submit</button>
             <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
         </div>
@@ -139,7 +154,7 @@
 
 <div class="container-fluid">
     <div class="navbar" style="height:40px;margin:0">
-        <img src="img/main.jpg" style="margin-left:60px;height:40px" alt="" />
+        <img src="img/main.jpg" id="theme" style="" alt="" />
         <nav class="navbar navbar-default pull-right" role="navigation">
             <ul class="nav navbar-nav">
                 <li class="dropdown yamm-fw" style="width:200px">
@@ -200,31 +215,31 @@
     <div class="row-fluid" style="margin-top:50px;">
         <div class="span12 topicHot" style="margin-left:2.564102564102564%;min-height:250px;">
             <div id="buyHot" class="span5">
-                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=buy&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Buy</h2>
+                <h2 style="border-style:none none dotted none;border-color:grey; font-size: 20pt; font-weight: bold;"><a href="topic.html?cate=buy&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Buy</h2>
             </div>
             <div id="sellHot" class="span5 offset1">
-                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=sell&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Sell</h2>
+                <h2 style="border-style:none none dotted none;border-color:grey; font-size: 20pt; font-weight: bold;"><a href="topic.html?cate=sell&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Sell</h2>
             </div>
         </div>
         <div class="span12 topicHot" style="min-height:250px">
             <div id="moreHot" class="span5">
-                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=more&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>More About Fudan</h2>
+                <h2 style="border-style:none none dotted none;border-color:grey; font-size: 20pt; font-weight: bold;"><a href="topic.html?cate=more&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>More About Fudan</h2>
             </div>
             <div id="otherHot" class="span5 offset1">
-                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=other&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Other</h2>
+                <h2 style="border-style:none none dotted none;border-color:grey; font-size: 20pt; font-weight: bold;"><a href="topic.html?cate=other&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Other</h2>
             </div>
         </div>
         <div class="span12 topicHot" style="min-height:250px">
             <div id="restaurantHot" class="span5">
-                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=restaurant&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Restaurant</h2>
+                <h2 style="border-style:none none dotted none;border-color:grey; font-size: 20pt; font-weight: bold;"><a href="topic.html?cate=restaurant&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Restaurant</h2>
             </div>
             <div id="houseHot" class="span5 offset1">
-                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=house&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Rent House</h2>
+                <h2 style="border-style:none none dotted none;border-color:grey; font-size: 20pt; font-weight: bold;"><a href="topic.html?cate=house&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Rent House</h2>
             </div>
         </div>
         <div class="span12 topicHot" style="min-height:250px">
             <div id="jobHot" class="span5">
-                <h2 style="border-style:none none dotted none;border-color:grey"><a href="topic.html?cate=job&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Job Postings</h2>
+                <h2 style="border-style:none none dotted none;border-color:grey; font-size: 20pt; font-weight: bold;"><a href="topic.html?cate=job&page=1" class="pull-right" style="font-size:20px">more<span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span></a>Job Postings</h2>
             </div>
         </div>
     </div>

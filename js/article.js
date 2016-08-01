@@ -13,7 +13,7 @@ $(document).ready(function () {
         type: "POST",
         url: "./php/setRead.php",
         data: {
-            serial: getQueryString("serial"),
+            serial: getQueryString("serial")
         },
         success: function (json) {
         }
@@ -23,7 +23,7 @@ $(document).ready(function () {
         type: "POST",
         url: "./php/addskim.php",
         data: {
-            serial: getQueryString("serial"),
+            serial: getQueryString("serial")
         },
         success: function (json) {
         }
@@ -33,13 +33,16 @@ $(document).ready(function () {
         type: "POST",
         dataType: "json",
         data: {
-            serial: getQueryString("serial"),
+            serial: getQueryString("serial")
         },
         success: function (json) {
-            $('#article_title').html(json.title);
+            $('#article_title').html(json.title+"<span style='font-size: 20px; margin-left: 8px'>"+json.cate+"</span><span class='pull-right' style='font-size: 20px;'>"+json.time+"</span>");
             $('title').html(json.title);
             //$('#article_text').innerHTML="<p id=\"article_text\">"+json.text+"</p>";
-            $('#article_text').html("<p id=\"article_text\">" + json.content + "</p>");
+            $('#article_text').html(json.content);
+            $('#viewNum').html("view&nbsp;"+json.viewNum);
+            $('#viewNum').after("<span>|</span>");
+            $('#commentNum').html("comment&nbsp;"+json.commentNum);
         }
     });
     $.ajax({
@@ -47,18 +50,18 @@ $(document).ready(function () {
         type: "POST",
         dataType: "json",
         data: {
-            serial: getQueryString("serial"),
+            serial: getQueryString("serial")
         },
         success: function (json) {
             $.each(json, function (index, item) {
-                $('.comments').append("<div><span>" + item.writer + "&nbsp</span><br><span>" + item.content + "</span><a href=\"javascript:void(0)\" onclick=\"reply('" + item.writer +"&"+ item.id + "')\" style=\"margin-left:10px;\">Reply</a></div>");
+                $('.comments').append("<div><span>" + item.writer + "&nbsp;</span><br><span>" + item.content + "</span><a href=\"javascript:void(0)\" onclick=\"reply('" + item.writer +"&"+ item.id + "')\" style=\"margin-left:10px;\">Reply</a></div>");
             });
         }
     });
 });
 
 function reply(data) {
-    var parameter = new Array();
+    var parameter;
     parameter = data.split('&');
     var writer = parameter[0];
     var id = parameter[1];
@@ -84,7 +87,7 @@ function publish() {
             comment: commentContent,
             to: $('#replyId').val(),
             cate: getQueryString("cate"),
-            nickname: writer,
+            nickname: writer
         },
         success: function () {
             $('#comm').val("");
@@ -92,4 +95,4 @@ function publish() {
             location.reload();
         }
     });
-};
+}

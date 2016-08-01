@@ -23,12 +23,13 @@ $retval = mysqli_query($conn,$sql);
 $arr = array();
 while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	$arr['content'] = $row['content'];
-	//$arr['visited'] = $row['browsed'];
+	$arr['viewNum'] = $row['browsed'];
 	$arr['title'] = $row['title'];
 	$arr['cate'] = $row['category'];
 	$arr['author'] = $row['author_id'];
 	$arr['pic']=$row['picture'];
-	//$arr['comments'] = $row['comments'];
+	$arr['commentNum'] = $row['comments'];
+	$arr['time']=$row['created_time'];
 }
 $str = json_encode($arr);
 echo "$str";

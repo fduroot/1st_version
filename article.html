@@ -79,7 +79,7 @@
     </div>
 </div>
 
-<<div id="loginModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+<div id="loginModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <h3 id="loginModalLabel">Login</h3>
@@ -175,19 +175,29 @@
         </div><!--/span-->
         <div class="span9">
             <div class="articles">
-                <h2 id="article_title"></h2>
+                <h2 id="article_title" style="border-style:none none dotted none;border-color:grey"></h2>
+                <h4>nickname</h4>
                 <p  id="article_text">
                     <img src="img/1.jpg">
                 </p>
+                <div>
+                    <strong id="viewNum"></strong>
+                    <strong id="commentNum"></strong>
+                </div>
                 <div>
                     <h4>Comments</h4>
                     <div class="comments" style="min-height:100px">
 <!--
                         <div>
-                            <span>xxxx&nbsp</span><br>
-                            <span>xxxxxx&nbsp</span>
-                            <a href="javascript:void(0)" onclick="reply('xxxx&abc')">Reply</a>
-                        </div><br>
+                            <span>writer&nbsp</span><br>
+                            <span>item.content</span>
+                            <a href="javascript:void(0)" onclick="reply(item.writer+'&'+item.id )" style="margin-left:10px;">Reply</a>
+                        </div>
+                        <div>
+                            <span>writer&nbsp</span><br>
+                            <span>item.content</span>
+                            <a href="javascript:void(0)" onclick="reply(item.writer+'&'+item.id )" style="margin-left:10px;">Reply</a>
+                        </div>
 -->
                     </div>
                     <h4>Write Comment</h4>
