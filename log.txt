@@ -25,3 +25,7 @@ show commentNum on topic
 show commentNum on index
 改动：在index页面上显示每条文章的评论数
 后台相关：getHottest.php中passage的各个子字段需要提供各文章的评论数，变量为commentNum
+
+limit width of the title on index
+改动：限制index页面上热门文章的标题宽度
+后台相关：无
