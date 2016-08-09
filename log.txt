@@ -20,3 +20,8 @@ change index.html style
 show commentNum on topic
 改动：在topic页面上显示每条文章的评论数
 后台相关：searchart.php中的notify与detail字段需要提供各文章的评论数，变量为commentNum
+
+8.9
+show commentNum on index
+改动：在index页面上显示每条文章的评论数
+后台相关：getHottest.php中passage的各个子字段需要提供各文章的评论数，变量为commentNum
