@@ -29,3 +29,8 @@ show commentNum on index
 limit width of the title on index
 改动：限制index页面上热门文章的标题宽度
 后台相关：无
+
+8.10
+fix bugs on index
+改动：修复index页面上的显示bug
+后台相关：无
