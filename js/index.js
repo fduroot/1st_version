@@ -4,7 +4,7 @@ $(document).ready(function(){
         url:"./php/getHottest.php",
         dataType:"json",
         data: {
-          },
+        },
         success:function(json){
             if (json.passage.sell != 0)
                 $.each(json.sell, function(index, item) {
