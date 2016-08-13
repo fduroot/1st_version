@@ -36,9 +36,10 @@ $(document).ready(function () {
             serial: getQueryString("serial")
         },
         success: function (json) {
-            $('#article_title').html(json.title+"<span style='font-size: 20px; margin-left: 8px'>"+json.cate+"</span><span class='pull-right' style='font-size: 20px;'>"+json.time+"</span>");
+            $('#article_title').html("<div style='text-overflow:ellipsis;overflow:hidden;display: inline-block'>"+json.title+"</div><span class='pull-right' style='font-size: 20px;'>"+json.time+"</span><span class='pull-right' style='font-size: 20px; margin-right: 8px'>"+json.cate+"</span>");
             $('title').html(json.title);
             //$('#article_text').innerHTML="<p id=\"article_text\">"+json.text+"</p>";
+            $('#nicknameTitle').html(json.nickname);
             $('#article_text').html(json.content);
             $('#viewNum').html("view&nbsp;"+json.viewNum);
             $('#viewNum').after("<span>|</span>");
@@ -58,6 +59,7 @@ $(document).ready(function () {
             });
         }
     });
+    //$('#article_title').html("<div style='text-overflow:ellipsis;overflow:hidden;display: inline-block'>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div><span class='pull-right' style='font-size: 20px;'>2016-08-13</span><span class='pull-right' style='font-size: 20px; margin-right: 8px'>House</span>");
 });
 
 function reply(data) {

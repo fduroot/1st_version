@@ -34,3 +34,8 @@ limit width of the title on index
 fix bugs on index
 改动：修复index页面上的显示bug
 后台相关：无
+
+8.13
+change article.html style
+改动：修复无法显示昵称的bug，缩小title字体，并添加宽度限制
+后台相关：getArticle.php提供nickname字段
