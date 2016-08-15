@@ -39,3 +39,8 @@ fix bugs on index
 change article.html style
 改动：修复无法显示昵称的bug，缩小title字体，并添加宽度限制
 后台相关：getArticle.php提供nickname字段
+
+8.16
+fix bugs on index
+改动：修复index页面上热门文章div显示溢出
+后台相关：无
