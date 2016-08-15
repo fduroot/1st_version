@@ -30,6 +30,7 @@ while ($row = mysqli_fetch_array($retval, MYSQLI_ASSOC)) {
 	$arr['pic']=$row['picture'];
 	$arr['commentNum'] = $row['comments'];
 	$arr['time']=$row['created_time'];
+	$arr['nickname']=$row['nickname'];
 }
 $str = json_encode($arr);
 echo "$str";
