@@ -48,3 +48,8 @@ fix bugs on index
 fix bugs on topic
 改动：修复topic页面上热门文章div显示溢出
 后台相关：无
+
+11.14
+fix bugs on index
+改动：修复index页面上登录按钮不显示
+后台相关：无

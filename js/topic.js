@@ -102,6 +102,7 @@ $(document).ready(function(){
             });
         }
     });
+    $('tbody').append("<tr><th class=\"span5\"><div style='white-space:nowrap;display:inline-block; max-width:80%;text-overflow:ellipsis;overflow:hidden;float:left'><a href=\"article.html?cate=buy&serial=1\" style='white-space:nowrap;'>just for testing</a></div><span style='margin-left: 10px'>[1234]</span></th><th class='span2'>kevin</th><th class=\"span2\">2016-08-16 22:34:00</th><th class=\"span2\">1234</th></tr>");
     /*for test*/
     /*
      var page = parseInt(getQueryString("page"));
