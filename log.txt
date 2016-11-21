@@ -1,60 +1,59 @@
 6.20
-change time format
+1、change time format
 改动：去掉item.time的最后三位，即不显示秒
 后台相关：无
-
-change id to nickname in topic.js
+2、change id to nickname in topic.js
 改动：将显示内容从id改为nickname，因为本网站的id其实就是用户名，nickname才是应该显示给其他人的名称（未与客户讨论，可能不对）
 后台相关：searchart.php中的notify与detail字段中的id改为nickname
-
-change index style
+3、change index style
 改动：修改热门文章字体大小
 后台相关：无
 
 7.9
-change index.html style
+1、change index.html style
 改动：修改部分上次漏掉的标题样式
 后台相关：无
 
 7.31
-show commentNum on topic
+1、show commentNum on topic
 改动：在topic页面上显示每条文章的评论数
 后台相关：searchart.php中的notify与detail字段需要提供各文章的评论数，变量为commentNum
 
 8.9
-show commentNum on index
+1、show commentNum on index
 改动：在index页面上显示每条文章的评论数
 后台相关：getHottest.php中passage的各个子字段需要提供各文章的评论数，变量为commentNum
-
-limit width of the title on index
+2、limit width of the title on index
 改动：限制index页面上热门文章的标题宽度
 后台相关：无
 
 8.10
-fix bugs on index
+1、fix bugs on index
 改动：修复index页面上的显示bug
 后台相关：无
 
 8.13
-change article.html style
+1、change article.html style
 改动：修复无法显示昵称的bug，缩小title字体，并添加宽度限制
 后台相关：getArticle.php提供nickname字段
 
 8.16
-fix bugs on index
+1、fix bugs on index
 改动：修复index页面上热门文章div显示溢出
 后台相关：无
-
-fix bugs on topic
+2、fix bugs on topic
 改动：修复topic页面上热门文章div显示溢出
 后台相关：无
 
 11.14
-fix bugs on index
+1、fix bugs on index
 改动：修复index页面上登录按钮不显示
 后台相关：无
 
 11.21
-fix bugs on topic
+1、fix bugs on topic
 改动：修复登录后无法删除和修改自己发的文章
+后台相关：无
+2、fix bugs on other pages & change log style
+改动：修复除index页面上登录按钮不显示，修改log的样式，使之更加清晰
 后台相关：无
