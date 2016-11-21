@@ -57,3 +57,6 @@
 2、fix bugs on other pages & change log style
 改动：修复除index页面上登录按钮不显示，修改log的样式，使之更加清晰
 后台相关：无
+3、delete test on topic
+改动：删除topic页面上的测试信息
+后台相关：无
