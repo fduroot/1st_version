@@ -53,3 +53,8 @@ fix bugs on topic
 fix bugs on index
 改动：修复index页面上登录按钮不显示
 后台相关：无
+
+11.21
+fix bugs on topic
+改动：修复登录后无法删除和修改自己发的文章
+后台相关：无
