@@ -60,3 +60,8 @@
 3、delete test on topic
 改动：删除topic页面上的测试信息
 后台相关：无
+
+11.22
+1、优化修复
+改动：article.html和topic.js
+后台相关：无

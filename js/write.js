@@ -1,14 +1,3 @@
-function preview() {
-    var x = document.getElementById("pic");
-    var z = document.getElementById("upfile");
-    z.value = x.value;
-    if (!x || !x.value) return;
-    var patn = /\.jpg$|\.jpeg$|\.png$|\.gif$/i;
-    if (!patn.test(x.value)) {
-        alert("Sorry,only jpeg,jpg,png,gif are allowed.");
-    }
-}
-
 function getQueryString(name) {
     var reg = new RegExp("(^|&)?" + name + "=([^&]*)(&|$)");
     var r = window.location.search.substr(1).match(reg);

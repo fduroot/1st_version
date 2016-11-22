@@ -92,7 +92,7 @@ $(document).ready(function(){
                 time = item.time;
                 time = time.substr(0,time.length-3);
                 $('tbody').append("<tr><th class=\"span5\"><div style='white-space:nowrap;display:inline-block; max-width:80%;text-overflow:ellipsis;overflow:hidden;float:left'><a href=\"article.html?cate="+item.cate+"&serial="+item.serial+"\" style='white-space:nowrap;'>"+item.title+"</a></div><span style='margin-left: 10px'>["+item.commentNum+"]</span></th><th class='span2'>"+item.nickname+"</th><th class=\"span2\">"+time+"</th><th class=\"span2\">"+item.readAmount+"</th></tr>");
-                if($.cookie('userid')===item.id) {
+                if($.cookie('userid')===item.author) {
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic("+item.serial+")\">Delete</a>");
                     $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"edit("+item.serial+")\">Edit</a>");
                 }
