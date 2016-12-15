@@ -65,3 +65,13 @@
 1、优化修复
 改动：article.html和topic.js
 后台相关：无
+
+11.23
+1、修复移动端kindeditor弹出窗口过大
+改动：修改kindeditor.js的bodyDiv，增加按钮居中；修改image.js和multiimage.js改变窗口大小（然而会带来pc端显示略显奇怪的问题）
+后台相关：无
+
+12.15
+1、修复首页显示
+改动：修改热门文章json接口，修改文章标题最大显示长度
+后台相关：无

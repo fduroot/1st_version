@@ -4274,7 +4274,7 @@ _extend(KDialog, KWidget, {
 		var bodyDiv = K('<div class="ke-dialog-body"></div>');
 		contentDiv.append(bodyDiv);
 		bodyDiv.append(body);
-		var footerDiv = K('<div class="ke-dialog-footer"></div>');
+		var footerDiv = K('<div class="ke-dialog-footer" style="text-align:center"></div>');
 		if (previewBtn || yesBtn || noBtn) {
 			contentDiv.append(footerDiv);
 		}

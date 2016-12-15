@@ -15,7 +15,7 @@ $(document).ready(function(){
                     $('#buyHot').append("<div style=\"margin:5px 0;min-height: 20px\"><div style='white-space:nowrap;text-overflow:ellipsis;overflow:hidden; float: left'><a href=\"article.html?cate=buy&serial="+item.serial+"\" style=\"text-decoration:none;color:black;font-size: 12pt;\">"+item.title+"</a></div><span style='margin-left: 10px; float: left'>["+item.commentNum+"]</span><span class='pull-right' style='font-size: 8pt'>["+item.nickname+"&nbsp;"+item.time+"&nbsp;<span style='font-size: 13pt'>"+item.count+"</span>&nbsp;viewed]</span></div>");
                 });
             if (json.passage.job != 0)
-                $.each(json.ptjb, function(index, item) {
+                $.each(json.job, function(index, item) {
                     $('#jobHot').append("<div style=\"margin:5px 0;min-height: 20px\"><div style='white-space:nowrap;text-overflow:ellipsis;overflow:hidden; float: left'><a href=\"article.html?cate=job&serial="+item.serial+"\" style=\"text-decoration:none;color:black;font-size: 12pt;\">"+item.title+"</a></div><span style='margin-left: 10px; float: left'>["+item.commentNum+"]</span><span class='pull-right' style='font-size: 8pt'>["+item.nickname+"&nbsp;"+item.time+"&nbsp;<span style='font-size: 13pt'>"+item.count+"</span>&nbsp;viewed]</span></div>");
                 });
             if (json.passage.more != 0)

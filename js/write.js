@@ -15,17 +15,17 @@ $(document).ready(function () {
             },
             dataType: "json",
             success: function (json) {
-                if ($.cookie('userid') !== json.author) {
+                /*if ($.cookie('userid') !== json.author) {
                     alert("You are not allowed to edit!");
                     window.location.href = "index.html";
-                }
+                }*/
             }
         });
     };
-    if ($.cookie('userid') === null) {
+    /*if ($.cookie('userid') === null) {
         alert("You are not allowed to edit!");
         window.location.href = "index.html";
-    };
+    };*/
     $.ajax({
         type: "POST",
         url: "./php/getArticle.php",
