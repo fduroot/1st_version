@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92b82b0c-8764-4d94-b527-71ae1eaee70e" name="Default" comment="添加人员信息">
+    <list default="true" id="92b82b0c-8764-4d94-b527-71ae1eaee70e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article.html" afterPath="$PROJECT_DIR$/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/topic.js" afterPath="$PROJECT_DIR$/js/topic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/write.js" afterPath="$PROJECT_DIR$/js/write.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log.txt" afterPath="$PROJECT_DIR$/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic.html" afterPath="$PROJECT_DIR$/topic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/write.html" afterPath="$PROJECT_DIR$/write.html" />
     </list>
     <ignored path="project3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,8 +29,8 @@
       <file leaf-file-name="write.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/write.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+            <state relative-caret-position="757">
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -109,11 +103,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="write.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/write.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-27">
+              <caret line="86" column="67" selection-start-line="86" selection-start-column="67" selection-end-line="86" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="log.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="82" column="2" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="6" />
+            <state relative-caret-position="807">
+              <caret line="85" column="2" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -191,7 +195,6 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/js/Happy61.js" />
         <option value="$PROJECT_DIR$/js/article.js" />
-        <option value="$PROJECT_DIR$/js/write.js" />
         <option value="$PROJECT_DIR$/editor/kindeditor.js" />
         <option value="$PROJECT_DIR$/editor/plugins/multiimage/multiimage.js" />
         <option value="$PROJECT_DIR$/editor/plugins/image/image.js" />
@@ -203,6 +206,7 @@
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/js/topic.js" />
         <option value="$PROJECT_DIR$/log.txt" />
+        <option value="$PROJECT_DIR$/js/write.js" />
       </list>
     </option>
   </component>
@@ -410,7 +414,7 @@
       <workItem from="1481294936092" duration="24000" />
       <workItem from="1481792446949" duration="1432000" />
       <workItem from="1483329481268" duration="36000" />
-      <workItem from="1484901971429" duration="2844000" />
+      <workItem from="1484901971429" duration="3145000" />
     </task>
     <task id="LOCAL-00001" summary="change admin">
       <created>1465227848990</created>
@@ -678,11 +682,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484912646461</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="增加栏目">
+      <created>1484914712983</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1484914712983</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75703000" />
+    <option name="totallyTimeSpent" value="76004000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -732,7 +743,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add information displayed on index.html&#10;for every hot artical, add item.nickname, item.time, item.count" />
     <MESSAGE value="fix some warning" />
     <MESSAGE value="add article information&#10;including cate, time, nickname, viewNum, commentNum&#10;" />
     <MESSAGE value="change viewNum and commentNum style&#10;" />
@@ -757,7 +767,8 @@
     <MESSAGE value="修复移动端kindeditor弹出窗口过大" />
     <MESSAGE value="修复首页显示" />
     <MESSAGE value="添加人员信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加人员信息" />
+    <MESSAGE value="增加栏目" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加栏目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1078,22 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/write.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/write.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="86" column="67" selection-start-line="86" selection-start-column="67" selection-end-line="86" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/topic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-202">
@@ -1216,10 +1211,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="86" column="67" selection-start-line="86" selection-start-column="67" selection-end-line="86" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/write.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="82" column="2" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="6" />
+        <state relative-caret-position="807">
+          <caret line="85" column="2" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="10" />
           <folding />
         </state>
       </provider>

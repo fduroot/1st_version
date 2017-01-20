@@ -83,3 +83,6 @@
 2、增加栏目
 改动：在Information下新增Talks about Classes栏目
 后台相关：数据支持,包括write页面的新增栏目，以及index、topic页面的返回数据
+3、提示文章标题长度
+改动：write页面标题超过50字符时提示修改
+后台相关：无

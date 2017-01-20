@@ -53,9 +53,11 @@ var currentUrl = window.location.search;
 //提交时检查标签是否为空
 function testSub() {
     var tagStr = $('#topic-name');
-    if (tagStr.val() !== "") {
-        $('form').attr("action", "./php/publishArticle.php" + currentUrl);
-    } else {
+    if (tagStr.val() == "") {
         alert("Please set a title for your tip");
+    } else if (tagStr.val().length>50) {
+        alert("Title must be less than 50 characters");
+    } else {
+        $('form').attr("action", "./php/publishArticle.php" + currentUrl);
     }
 }
