@@ -34,6 +34,10 @@ $(document).ready(function(){
                 $.each(json.house, function(index, item) {
                     $('#houseHot').append("<div style=\"margin:5px 0;min-height: 20px\"><div style='white-space:nowrap;text-overflow:ellipsis;overflow:hidden; float: left'><a href=\"article.html?cate=house&serial="+item.serial+"\" style=\"text-decoration:none;color:black;font-size: 12pt;\">"+item.title+"</a></div><span style='margin-left: 10px; float: left'>["+item.commentNum+"]</span><span class='pull-right' style='font-size: 8pt'>["+item.nickname+"&nbsp;"+item.time+"&nbsp;<span style='font-size: 13pt'>"+item.count+"</span>&nbsp;viewed]</span></div>");
                 });
+            if (json.passage.classes != 0)
+                $.each(json.classes, function(index, item) {
+                    $('#classesHot').append("<div style=\"margin:5px 0;min-height: 20px\"><div style='white-space:nowrap;text-overflow:ellipsis;overflow:hidden; float: left'><a href=\"article.html?cate=classes&serial="+item.serial+"\" style=\"text-decoration:none;color:black;font-size: 12pt;\">"+item.title+"</a></div><span style='margin-left: 10px; float: left'>["+item.commentNum+"]</span><span class='pull-right' style='font-size: 8pt'>["+item.nickname+"&nbsp;"+item.time+"&nbsp;<span style='font-size: 13pt'>"+item.count+"</span>&nbsp;viewed]</span></div>");
+                });
         }
     });
     //$('#sellHot').append("<div style=\"margin:5px 0;min-height: 20px;\"><div style='white-space:nowrap;text-overflow:ellipsis;overflow:hidden; float: left'><a href=\"article.html?cate=sell&serial=0\" style=\"text-decoration:none;color:black;font-size: 12pt;\">Buy a rice cooker ( cheaper than 50rmb) </a></div><span style='margin-left: 10px; float: left'>[12345]</span><span class='pull-right' style='font-size: 8pt'>[kevin&nbsp;2016-08-09&nbsp;<span style='font-size: 13pt'>1234</span>&nbsp;viewed]</span></div>");

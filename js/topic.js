@@ -11,34 +11,22 @@ $(document).ready(function(){
     });
     $('.url').attr("value",window.location.href);
     $('#'+getQueryString("cate")).attr("class","active");
-    if(getQueryString("cate")==="buy") {
+    if(getQueryString("cate")==="buy")
         $('h1 span').html("Buy");
-    }
-    if(getQueryString("cate")==="sell") {
+    if(getQueryString("cate")==="sell")
         $('h1 span').html("Sell");
-    }
-    if(getQueryString("cate")==="inform") {
-        $('#inform').attr("class","active nav-header");
-        $('h1 span').html("Information");
-    }
     if(getQueryString("cate")==="job")
         $('h1 span').html("Job Postings");
-    if(getQueryString("cate")==="qa") {
-        $('#qa').attr("class","active nav-header");
-        $('h1 span').html("Q&A");
-    }
     if(getQueryString("cate")==="more")
         $('h1 span').html("More About Fudan");
     if(getQueryString("cate")==="other")
         $('h1 span').html("Other");
-    if(getQueryString("cate")==="survive") {
-        $('#survive').attr("class","active nav-header");
-        $('h1 span').html("Survive");
-    }
     if(getQueryString("cate")==="restaurant")
         $('h1 span').html("Restaurant");
     if(getQueryString("cate")==="house")
         $('h1 span').html("Rent House");
+    if(getQueryString("cate")==="classes")
+        $('h1 span').html("Talks About Classes");
     if(getQueryString("cate")==="search") {
         $('h1 span').html("Search");
         $('thead tr').append("<th class=\"span2\"><span class=\"lead\" style=\"color:black;font-weight:bold\">Page View</span><span class=\"glyphicon glyphicon-sort\" onclick=\"sort('browsed')\"></span></th><th class=\"span2\"><span class=\"lead\" style=\"color:black;font-weight:bold\">Category</span></th>");
