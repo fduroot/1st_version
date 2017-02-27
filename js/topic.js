@@ -27,6 +27,8 @@ $(document).ready(function(){
         $('h1 span').html("Rent House");
     if(getQueryString("cate")==="classes")
         $('h1 span').html("Talks About Classes");
+    if(getQueryString("cate")==="partners")
+        $('h1 span').html("Partners");
     if(getQueryString("cate")==="search") {
         $('h1 span').html("Search");
         $('thead tr').append("<th class=\"span2\"><span class=\"lead\" style=\"color:black;font-weight:bold\">Page View</span><span class=\"glyphicon glyphicon-sort\" onclick=\"sort('browsed')\"></span></th><th class=\"span2\"><span class=\"lead\" style=\"color:black;font-weight:bold\">Category</span></th>");
@@ -39,7 +41,7 @@ $(document).ready(function(){
             page : getQueryString("page"),
             arr : getQueryString("arr"),
             category : getQueryString("cate"),
-            search : getQueryString("search")//document.getElementsByName("search")[0].value,
+            search : getQueryString("search")
         },
         success:function(json){
             var page = parseInt(getQueryString("page"));
@@ -90,51 +92,6 @@ $(document).ready(function(){
             });
         }
     });
-    //$('tbody').append("<tr><th class=\"span5\"><div style='white-space:nowrap;display:inline-block; max-width:80%;text-overflow:ellipsis;overflow:hidden;float:left'><a href=\"article.html?cate=buy&serial=1\" style='white-space:nowrap;'>just for testing</a></div><span style='margin-left: 10px'>[1234]</span></th><th class='span2'>kevin</th><th class=\"span2\">2016-08-16 22:34:00</th><th class=\"span2\">1234</th></tr>");
-    /*for test*/
-    /*
-     var page = parseInt(getQueryString("page"));
-     var cate = getQueryString("cate");
-     $('#firstPage').attr("onclick","jump('"+1+"')");
-     $('#lastPage').attr("onclick","jump('"+4+"')");
-     $('#prevPage').attr("onclick","jump('"+(page-1)+"')");
-     $('#nextPage').attr("onclick","jump('"+(page+1)+"')");
-     if (page===1) {
-     $('#prevLi').attr("class","disabled");
-     $('#firstLi').attr("class","disabled");
-     }
-     if(page===4) {
-     $('#nextLi').attr("class","disabled");
-     $('#lastLi').attr("class","disabled");
-     }
-     for(var i=page-2; i<=page+2; i++)
-     if(i>=1 && i<=4) {
-     if(i!==page)
-     $("<li><a href=\"#\" onclick=\"jump('"+i+"')\">"+i+"</a></li>").insertBefore('#nextLi');
-     else
-     $("<li><a href=\"#\" onclick=\"jump('"+i+"')\" style=\"color:rgb(255,255,255);background:rgb(130,200,255)\">"+i+"</a></li>").insertBefore('#nextLi');
-     }
-     for (i=0;i<=40;i++) {
-     if (Math.floor(i/10)+1==page) {
-     if(getQueryString("search")===null)
-     $('tbody').append("<tr class='admin'><th class=\"span5\"><a href=\"article.html?cate="+getQueryString("cate")+"&serial="+i+"\">"+"test"+i+"</a><span class='glyphicon glyphicon-flag'></span></th><th class=\"span2\">"+"2000/1/1"+"</th></tr>");
-     else
-     $('tbody').append("<tr><th class=\"span5\"><a href=\"article.html?cate="+getQueryString("cate")+"&serial="+i+"\">"+"test"+i+"</a></th><th class=\"span2\">"+"2000/1/1"+"</th><th class=\"span2\">0</th><th class=\"span2\">Sell</th></tr>");
-         $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"deleteTopic(1)\">Delete</a>");
-         $('tbody tr:last-child th:first-child').append("<a class=\"btn btn-small pull-right\" style=\"margin-left:5px;margin-bottom:2px;\" onclick=\"edit(1)\">Edit</a>");
-
-     }
-     }
-     if ($.cookie('userid')===null) {
-     $('#edit_btn').attr("href","#loginModal");
-     $('#edit_btn').attr("data-toggle","modal");
-     $('#edit_btn').attr("data-target","#loginModal");
-     } else {
-     $('#edit_btn').attr("href", "write.html?targetId=" + para[0][1] + "&style=new&type=buy");
-     }
-    var commentNum=5;
-    $('tbody').append("<tr><th class=\"span5\"><a href=\"article.html?cate=buy&serial=1\">hhh</a><span style='margin-left: 10px'>["+commentNum+"]</span></th><th class='span2'>Kevin</th><th class=\"span2\">2016-07-31</th><th class=\"span2\">1</th></tr>");
-     */
 });
 
 function admin() {
