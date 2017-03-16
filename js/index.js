@@ -1,5 +1,54 @@
 $(document).ready(function(){
     $('.url').attr("value",window.location.href);
+    var app = angular.module('hotPicApp', []);
+    app.controller('hotPicCtrl', function($scope, $http) {
+        let json;
+        let cateNum = 0;
+        const MAX_CATE = 9;
+        const categoryName = ["Sell","Buy","More About Fudan","Other","Restaurant","Rent House","Job Postings","Talks About Classes","Partners"];
+        const category = ["sell","buy","more","other","restaurant","house","job","classes","partners"];
+        let jsonHot;
+        $http.get("./php/getHottest.php")
+            .then(function (response) {
+                json = response.data;
+                jsonHot = [json.sell,json.buy,json.more,json.other,json.restaurant,json.house,json.job,json.classes,json.partners];
+                $scope.cate = categoryName[cateNum];
+                $scope.picHot = jsonHot[cateNum];
+            });
+        $scope.cateRedirect = function () {
+            window.location.href="topic.html?cate="+category[cateNum]+"&page=1";
+        }
+        $scope.catePrev = function() {
+            if (cateNum==0)
+                cateNum = MAX_CATE-1;
+            else
+                cateNum--;
+            $scope.cate = categoryName[cateNum];
+            $scope.picHot = jsonHot[cateNum];
+        }
+        $scope.cateNext = function() {
+            if (cateNum==MAX_CATE-1)
+                cateNum = 0;
+            else
+                cateNum++;
+            $scope.cate = categoryName[cateNum];
+            $scope.picHot = jsonHot[cateNum];
+        }
+        $scope.redirect = function(serial) {
+            window.location.href="article.html?cate="+category[cateNum]+"&serial="+serial;
+        }
+    });
+    app.directive('errSrc', function() {
+        return {
+            link: function(scope, element, attrs) {
+                element.bind('error', function() {
+                    if (attrs.src != attrs.errSrc) {
+                        attrs.$set('src', attrs.errSrc);
+                    }
+                });
+            }
+        }
+    });
     $.ajax({
         url:"./php/getHottest.php",
         dataType:"json",
@@ -62,6 +111,7 @@ $(document).ready(function(){
                 });
         }
     });
+
 });
 
 function jump(address) {

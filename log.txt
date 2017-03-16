@@ -97,3 +97,8 @@
 2、修正之前修改引起的index页面显示问题
 改动：修改buy和sell热门文章的显示
 后台相关：无
+
+3.16
+1、修改index页面样式
+改动：去除聊天室，使用angularJS显示新功能
+后台相关：getHottest.php增加img字段

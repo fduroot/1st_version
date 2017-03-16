@@ -208,8 +208,33 @@
             </div><!--/.well -->
         </div><!--/span-->
 
-        <div class="span9">
-            <embed src="http://www.gagalive.kr/livechat1.swf?chatroom='test'" style="width:100%;height:400px;z-index:-1;" wmode="transparent"></embed>
+        <div class="span9" ng-app="hotPicApp">
+            <div ng-controller="hotPicCtrl">
+                <div class="pic-header">
+                    <h2 style="background-color: rgb(245,245,245); font-size: 20pt; font-weight: bold; padding: 0 10px;">
+                        <span ng-bind="cate"></span>
+                        <a ng-click="cateRedirect()" style="font-size:20px; padding: 0 20px;">more
+                            <span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span>
+                        </a>
+                        <button type="button" class="btn btn-default pull-right" style="margin: 5px 0;" ng-click="cateNext()">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </button>
+                        <button type="button" class="btn btn-default pull-right" style="margin: 5px 0;" ng-click="catePrev()">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </button>
+                    </h2>
+                </div>
+                <div class="pic-content" ng-repeat="hot in picHot">
+                    <div style="width: 23%; padding: 0 1%;" class="pull-left">
+                        <div style="height: 200px">
+                            <img ng-src="{{hot.img}}" ng-click="redirect(hot.serial)" err-src="img/default.jpg" style="cursor: pointer">
+                        </div>
+                        <div ng-bind="hot.title" style="cursor: pointer; font-size: 16px; margin: 3px 0;"></div>
+                        <span ng-bind="hot.nickname"></span>
+                        <span class="pull-right" ng-bind="hot.commentNum"></span>
+                    </div>
+                </div>
+            </div>
         </div><!--span-->
 
     </div><!--/row-->
@@ -267,6 +292,7 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery.js"></script>
 <script src="js/index.js"></script>
+<script src="js/angular.js"></script>
 <script src="js/jquery.cookie.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/load.js"></script>
