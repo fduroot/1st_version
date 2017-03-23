@@ -211,9 +211,9 @@
         <div class="span9" ng-app="hotPicApp">
             <div ng-controller="hotPicCtrl">
                 <div class="pic-header">
-                    <h2 style="background-color: rgb(245,245,245); font-size: 20pt; font-weight: bold; padding: 0 10px;">
+                    <h2 style="background-color: rgb(245,245,245); font-size: 20pt; font-weight: bold; padding-left: 10px;">
                         <span ng-bind="cate"></span>
-                        <a ng-click="cateRedirect()" style="font-size:20px; padding: 0 20px;">more
+                        <a ng-click="cateRedirect()" style="font-size:20px; padding-left: 10px;">more
                             <span class="glyphicon glyphicon-chevron-right" style="font-size:15px"></span>
                         </a>
                         <button type="button" class="btn btn-default pull-right" style="margin: 5px 0;" ng-click="cateNext()">
@@ -225,9 +225,9 @@
                     </h2>
                 </div>
                 <div class="pic-content" ng-repeat="hot in picHot">
-                    <div style="width: 23%; padding: 0 1%;" class="pull-left">
+                    <div style="width: 23%; padding: 5px 1%;" class="pic-content-div">
                         <div style="height: 200px">
-                            <img ng-src="{{hot.img}}" ng-click="redirect(hot.serial)" err-src="img/default.jpg" style="cursor: pointer">
+                            <img ng-src="{{hot.img}}" ng-click="redirect(hot.serial)" err-src="img/default.jpg" style="cursor: pointer; height: 200px">
                         </div>
                         <div ng-bind="hot.title" style="cursor: pointer; font-size: 16px; margin: 3px 0;"></div>
                         <span ng-bind="hot.nickname"></span>

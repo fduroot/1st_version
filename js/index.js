@@ -1,11 +1,17 @@
 $(document).ready(function(){
     $('.url').attr("value",window.location.href);
+    if (isPc()) {
+        $('.pic-content-div').addClass("pull-left");
+    }
+    else {
+        $('.pic-content-div').css({"width":"98%"});
+    }
     var app = angular.module('hotPicApp', []);
     app.controller('hotPicCtrl', function($scope, $http) {
         let json;
         let cateNum = 0;
         const MAX_CATE = 9;
-        const categoryName = ["Sell","Buy","More About Fudan","Other","Restaurant","Rent House","Job Postings","Talks About Classes","Partners"];
+        const categoryName = ["Sell","Buy","Fudan","Other","Restaurant","House","Jobs","Classes","Partners"];
         const category = ["sell","buy","more","other","restaurant","house","job","classes","partners"];
         let jsonHot;
         $http.get("./php/getHottest.php")
@@ -116,4 +122,14 @@ $(document).ready(function(){
 
 function jump(address) {
     window.location.href="topic.html?cate="+address+"&page=1";
+}
+
+function isPc() {
+    let userAgentInfo = navigator.userAgent;
+    let Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+    let flag = true;
+    for (let v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }
+    }
+    return flag;
 }
